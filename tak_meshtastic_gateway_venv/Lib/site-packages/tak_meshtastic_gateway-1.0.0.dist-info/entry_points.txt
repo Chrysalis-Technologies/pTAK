@@ -1,0 +1,3 @@
+[console_scripts]
+tak-meshtastic-gateway=tak_meshtastic_gateway.tak_meshtastic_gateway:main
+
