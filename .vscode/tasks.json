@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "fts:compose:up",
+      "type": "shell",
+      "command": "docker compose up -d"
+    },
+    {
+      "label": "fts:compose:down",
+      "type": "shell",
+      "command": "docker compose down"
+    },
+    {
+      "label": "fts:compose:logs",
+      "type": "shell",
+      "command": "docker compose logs -f freetakserver"
+    },
+    {
+      "label": "fts:gen-certs",
+      "type": "shell",
+      "command": "pwsh ./scripts/gen-fts-certs.ps1 -ClientCommonName WinTAK-Paul"
+    },
+    {
+      "label": "fts:test",
+      "type": "shell",
+      "command": "pwsh ./scripts/test-fts.ps1"
+    }
+  ]
+}
