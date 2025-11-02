@@ -42,9 +42,16 @@ try {
   }
 
   if (-not $P12Password) {
-    $P12Password = Read-Host -AsSecureString "Enter export password for $clientP12"
-    $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($P12Password)
-    $P12Password = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)
+    $securePassword = Read-Host -AsSecureString "Enter export password for $clientP12"
+    $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($securePassword)
+    try {
+      $P12Password = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)
+    }
+    finally {
+      if ($BSTR -ne [IntPtr]::Zero) {
+        [System.Runtime.InteropServices.Marshal]::ZeroFreeBSTR($BSTR)
+      }
+    }
   }
 
   if (New-IfMissing $clientP12) {
