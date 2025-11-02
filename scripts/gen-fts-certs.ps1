@@ -48,7 +48,7 @@ try {
   }
 
   if (New-IfMissing $clientP12) {
-    & $openssl pkcs12 -export -out $clientP12 -inkey $clientKey -in $clientCrt -certfile ca.crt -password pass:$P12Password
+    & $openssl pkcs12 -export -legacy -name $ClientCommonName -out $clientP12 -inkey $clientKey -in $clientCrt -certfile ca.crt -password pass:$P12Password
   }
 
   Write-Host "CA:      $(Join-Path $certDir 'ca.crt')"
