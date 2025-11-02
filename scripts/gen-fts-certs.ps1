@@ -9,7 +9,10 @@ $certDir = Join-Path $PSScriptRoot "..\fts-certs"
 New-Item -ItemType Directory -Force -Path $certDir | Out-Null
 
 function New-IfMissing($path) {
-  if (Test-Path $path -and -not $Force) { return $false } else { return $true }
+  if ((Test-Path -Path $path) -and (-not $Force)) {
+    return $false
+  }
+  return $true
 }
 
 # Ensure OpenSSL
