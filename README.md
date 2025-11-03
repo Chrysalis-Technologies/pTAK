@@ -29,3 +29,4 @@ Connect WinTAK:
 - Validate connectivity using the **fts:test** task.
 - In WinTAK, import `fts-certs\WinTAK-Paul.p12` (using the export password), trust `fts-certs\ca.crt`, and connect to `127.0.0.1:8089` with TLS enabled.
 - Hardening tip: remove ports `8087` and `8080` from `docker-compose.yml` and re-run **fts:compose:up** to enforce TLS-only access once clients are migrated.
+- The repo ships patched FreeTAKServer SSL controllers (mounted from `overrides/`) so the container does not require a CRL on start. If you rebuild the container, keep those files in place or regenerate the CRL at `fts-certs\FTS_CRL.json`.

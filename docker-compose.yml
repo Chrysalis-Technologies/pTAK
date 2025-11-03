@@ -15,11 +15,14 @@ services:
     volumes:
       - ./fts-data:/data
       - ./fts-certs:/certs:ro
+      - ./overrides/FreeTAKServer/services/ssl_cot_service/controllers/SSLSocketController.py:/home/freetak/FreeTAKServer/services/ssl_cot_service/controllers/SSLSocketController.py:ro
+      - ./overrides/FreeTAKServer/core/connection/SSLSocketController.py:/home/freetak/FreeTAKServer/core/connection/SSLSocketController.py:ro
     environment:
       FTS_CA: /certs/ca.crt
       FTS_CERT: /certs/server.crt
       FTS_KEY: /certs/server.key
       FTS_TLS: "true"
+      FTS_CRLDIR: /certs/FTS_CRL.json
 
   freetakserver-ui:
     image: ghcr.io/freetakteam/ui:latest
