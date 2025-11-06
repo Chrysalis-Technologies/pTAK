@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MissionPackageManifest version="2">
+  <Configuration>
+    <Parameter name="uid" value="19fa4d24-47f9-48ff-97c3-b852fd392196"/>
+    <Parameter name="name" value="EOX Sentinel-2 Cloudless 2024 Imagery"/>
+    <Parameter name="onReceiveDelete" value="false"/>
+  </Configuration>
+  <Contents>
+    <Content ignore="false" zipEntry="content/EOX-Sentinel2-Cloudless-2024.xml"/>
+  </Contents>
+</MissionPackageManifest>
