@@ -1,0 +1,1246 @@
+2025-11-07-00:00:15.689 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1599 source=172.19.0.1
+2025-11-07-00:00:15.706 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1599
+2025-11-07-00:00:29.290 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1600 source=172.19.0.1
+2025-11-07-00:00:29.307 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1600
+2025-11-07-00:00:42.878 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1601 source=172.19.0.1
+2025-11-07-00:00:42.896 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1601
+2025-11-07-00:00:59.788 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1602 source=172.19.0.1
+2025-11-07-00:00:59.803 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1602
+2025-11-07-00:01:13.375 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1603 source=172.19.0.1
+2025-11-07-00:01:13.395 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1603
+2025-11-07-00:01:30.303 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1604 source=172.19.0.1
+2025-11-07-00:01:30.319 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1604
+2025-11-07-00:01:43.885 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1605 source=172.19.0.1
+2025-11-07-00:01:43.901 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1605
+2025-11-07-00:02:00.815 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1606 source=172.19.0.1
+2025-11-07-00:02:00.830 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1606
+2025-11-07-00:02:14.398 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1607 source=172.19.0.1
+2025-11-07-00:02:14.412 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1607
+2025-11-07-00:02:31.306 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1608 source=172.19.0.1
+2025-11-07-00:02:31.324 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1608
+2025-11-07-00:02:44.908 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1609 source=172.19.0.1
+2025-11-07-00:02:44.926 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1609
+2025-11-07-00:02:58.479 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1610 source=172.19.0.1
+2025-11-07-00:02:58.494 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1610
+2025-11-07-00:03:15.402 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1611 source=172.19.0.1
+2025-11-07-00:03:15.422 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1611
+2025-11-07-00:03:28.986 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1612 source=172.19.0.1
+2025-11-07-00:03:29.004 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1612
+2025-11-07-00:03:45.903 [epollEventLoopGroup-4-29] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1613 source=172.19.0.1
+2025-11-07-00:03:45.918 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1613
+2025-11-07-00:03:59.484 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1614 source=172.19.0.1
+2025-11-07-00:03:59.501 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1614
+2025-11-07-00:04:16.419 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1615 source=172.19.0.1
+2025-11-07-00:04:16.436 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1615
+2025-11-07-00:04:30.009 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1616 source=172.19.0.1
+2025-11-07-00:04:30.031 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1616
+2025-11-07-00:04:46.920 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1617 source=172.19.0.1
+2025-11-07-00:04:46.940 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1617
+2025-11-07-00:05:00.536 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1618 source=172.19.0.1
+2025-11-07-00:05:00.562 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1618
+2025-11-07-00:05:17.459 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1619 source=172.19.0.1
+2025-11-07-00:05:17.478 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1619
+2025-11-07-00:05:31.047 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1620 source=172.19.0.1
+2025-11-07-00:05:31.065 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1620
+2025-11-07-00:05:44.618 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1621 source=172.19.0.1
+2025-11-07-00:05:44.651 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1621
+2025-11-07-00:06:01.539 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1622 source=172.19.0.1
+2025-11-07-00:06:01.560 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1622
+2025-11-07-00:06:15.116 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1623 source=172.19.0.1
+2025-11-07-00:06:15.133 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1623
+2025-11-07-00:06:32.031 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1624 source=172.19.0.1
+2025-11-07-00:06:32.054 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1624
+2025-11-07-00:06:45.609 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1625 source=172.19.0.1
+2025-11-07-00:06:45.625 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1625
+2025-11-07-00:07:02.524 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1626 source=172.19.0.1
+2025-11-07-00:07:02.541 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1626
+2025-11-07-00:07:16.110 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1627 source=172.19.0.1
+2025-11-07-00:07:16.127 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1627
+2025-11-07-00:07:33.034 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1628 source=172.19.0.1
+2025-11-07-00:07:33.052 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1628
+2025-11-07-00:07:46.632 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1629 source=172.19.0.1
+2025-11-07-00:07:46.647 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1629
+2025-11-07-00:08:03.538 [epollEventLoopGroup-4-46] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1630 source=172.19.0.1
+2025-11-07-00:08:03.555 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1630
+2025-11-07-00:08:17.116 [epollEventLoopGroup-4-47] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1631 source=172.19.0.1
+2025-11-07-00:08:17.134 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1631
+2025-11-07-00:08:30.698 [epollEventLoopGroup-4-48] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1632 source=172.19.0.1
+2025-11-07-00:08:30.718 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1632
+2025-11-07-00:08:47.644 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1633 source=172.19.0.1
+2025-11-07-00:08:47.667 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1633
+2025-11-07-00:09:01.215 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1634 source=172.19.0.1
+2025-11-07-00:09:01.235 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1634
+2025-11-07-00:09:18.144 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1635 source=172.19.0.1
+2025-11-07-00:09:18.164 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1635
+2025-11-07-00:09:31.734 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1636 source=172.19.0.1
+2025-11-07-00:09:31.756 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1636
+2025-11-07-00:09:48.700 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1637 source=172.19.0.1
+2025-11-07-00:09:48.716 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1637
+2025-11-07-00:10:02.284 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1638 source=172.19.0.1
+2025-11-07-00:10:02.303 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1638
+2025-11-07-00:10:19.213 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1639 source=172.19.0.1
+2025-11-07-00:10:19.229 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1639
+2025-11-07-00:10:32.795 [epollEventLoopGroup-4-8] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1640 source=172.19.0.1
+2025-11-07-00:10:32.810 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1640
+2025-11-07-00:10:49.717 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1641 source=172.19.0.1
+2025-11-07-00:10:49.733 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1641
+2025-11-07-00:11:03.313 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1642 source=172.19.0.1
+2025-11-07-00:11:03.328 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1642
+2025-11-07-00:11:16.910 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1643 source=172.19.0.1
+2025-11-07-00:11:16.926 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1643
+2025-11-07-00:11:33.833 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1644 source=172.19.0.1
+2025-11-07-00:11:33.862 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1644
+2025-11-07-00:11:47.425 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1645 source=172.19.0.1
+2025-11-07-00:11:47.447 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1645
+2025-11-07-00:12:04.335 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1646 source=172.19.0.1
+2025-11-07-00:12:04.360 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1646
+2025-11-07-00:12:17.906 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1647 source=172.19.0.1
+2025-11-07-00:12:17.921 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1647
+2025-11-07-00:12:34.826 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1648 source=172.19.0.1
+2025-11-07-00:12:34.842 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1648
+2025-11-07-00:12:48.419 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1649 source=172.19.0.1
+2025-11-07-00:12:48.435 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1649
+2025-11-07-00:13:05.338 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1650 source=172.19.0.1
+2025-11-07-00:13:05.353 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1650
+2025-11-07-00:13:18.908 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1651 source=172.19.0.1
+2025-11-07-00:13:18.929 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1651
+2025-11-07-00:13:35.826 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1652 source=172.19.0.1
+2025-11-07-00:13:35.843 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1652
+2025-11-07-00:13:49.407 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1653 source=172.19.0.1
+2025-11-07-00:13:49.424 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1653
+2025-11-07-00:14:02.994 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1654 source=172.19.0.1
+2025-11-07-00:14:03.010 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1654
+2025-11-07-00:14:19.923 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1655 source=172.19.0.1
+2025-11-07-00:14:19.952 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1655
+2025-11-07-00:14:33.507 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1656 source=172.19.0.1
+2025-11-07-00:14:33.527 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1656
+2025-11-07-00:14:50.422 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1657 source=172.19.0.1
+2025-11-07-00:14:50.437 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1657
+2025-11-07-00:15:04.000 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1658 source=172.19.0.1
+2025-11-07-00:15:04.014 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1658
+2025-11-07-00:15:20.932 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1659 source=172.19.0.1
+2025-11-07-00:15:20.948 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1659
+2025-11-07-00:15:34.505 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1660 source=172.19.0.1
+2025-11-07-00:15:34.523 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1660
+2025-11-07-00:15:51.424 [epollEventLoopGroup-4-29] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1661 source=172.19.0.1
+2025-11-07-00:15:51.442 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1661
+2025-11-07-00:16:05.023 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1662 source=172.19.0.1
+2025-11-07-00:16:05.047 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1662
+2025-11-07-00:16:18.609 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1663 source=172.19.0.1
+2025-11-07-00:16:18.629 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1663
+2025-11-07-00:16:35.525 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1664 source=172.19.0.1
+2025-11-07-00:16:35.542 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1664
+2025-11-07-00:16:49.117 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1665 source=172.19.0.1
+2025-11-07-00:16:49.132 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1665
+2025-11-07-00:17:06.043 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1666 source=172.19.0.1
+2025-11-07-00:17:06.059 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1666
+2025-11-07-00:17:19.654 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1667 source=172.19.0.1
+2025-11-07-00:17:19.670 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1667
+2025-11-07-00:17:36.547 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1668 source=172.19.0.1
+2025-11-07-00:17:36.579 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1668
+2025-11-07-00:17:50.137 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1669 source=172.19.0.1
+2025-11-07-00:17:50.154 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1669
+2025-11-07-00:18:07.061 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1670 source=172.19.0.1
+2025-11-07-00:18:07.076 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1670
+2025-11-07-00:18:20.640 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1671 source=172.19.0.1
+2025-11-07-00:18:20.662 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1671
+2025-11-07-00:18:37.559 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1672 source=172.19.0.1
+2025-11-07-00:18:37.576 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1672
+2025-11-07-00:18:51.137 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1673 source=172.19.0.1
+2025-11-07-00:18:51.153 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1673
+2025-11-07-00:19:04.708 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1674 source=172.19.0.1
+2025-11-07-00:19:04.727 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1674
+2025-11-07-00:19:21.638 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1675 source=172.19.0.1
+2025-11-07-00:19:21.662 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1675
+2025-11-07-00:19:35.225 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1676 source=172.19.0.1
+2025-11-07-00:19:35.243 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1676
+2025-11-07-00:19:52.152 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1677 source=172.19.0.1
+2025-11-07-00:19:52.168 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1677
+2025-11-07-00:20:05.744 [epollEventLoopGroup-4-46] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1678 source=172.19.0.1
+2025-11-07-00:20:05.760 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1678
+2025-11-07-00:20:22.657 [epollEventLoopGroup-4-47] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1679 source=172.19.0.1
+2025-11-07-00:20:22.673 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1679
+2025-11-07-00:20:36.260 [epollEventLoopGroup-4-48] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1680 source=172.19.0.1
+2025-11-07-00:20:36.283 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1680
+2025-11-07-00:20:53.165 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1681 source=172.19.0.1
+2025-11-07-00:20:53.181 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1681
+2025-11-07-00:21:06.749 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1682 source=172.19.0.1
+2025-11-07-00:21:06.766 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1682
+2025-11-07-00:21:23.673 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1683 source=172.19.0.1
+2025-11-07-00:21:23.689 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1683
+2025-11-07-00:21:37.252 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1684 source=172.19.0.1
+2025-11-07-00:21:37.272 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1684
+2025-11-07-00:21:50.839 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1685 source=172.19.0.1
+2025-11-07-00:21:50.856 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1685
+2025-11-07-00:22:07.762 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1686 source=172.19.0.1
+2025-11-07-00:22:07.777 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1686
+2025-11-07-00:22:21.336 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1687 source=172.19.0.1
+2025-11-07-00:22:21.354 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1687
+2025-11-07-00:22:38.266 [epollEventLoopGroup-4-8] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1688 source=172.19.0.1
+2025-11-07-00:22:38.281 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1688
+2025-11-07-00:22:51.855 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1689 source=172.19.0.1
+2025-11-07-00:22:51.870 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1689
+2025-11-07-00:23:08.768 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1690 source=172.19.0.1
+2025-11-07-00:23:08.785 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1690
+2025-11-07-00:23:22.363 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1691 source=172.19.0.1
+2025-11-07-00:23:22.387 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1691
+2025-11-07-00:23:39.272 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1692 source=172.19.0.1
+2025-11-07-00:23:39.287 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1692
+2025-11-07-00:23:52.842 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1693 source=172.19.0.1
+2025-11-07-00:23:52.858 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1693
+2025-11-07-00:24:09.766 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1694 source=172.19.0.1
+2025-11-07-00:24:09.784 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1694
+2025-11-07-00:24:23.381 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1695 source=172.19.0.1
+2025-11-07-00:24:23.402 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1695
+2025-11-07-00:24:36.962 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1696 source=172.19.0.1
+2025-11-07-00:24:36.979 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1696
+2025-11-07-00:24:53.898 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1697 source=172.19.0.1
+2025-11-07-00:24:53.919 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1697
+2025-11-07-00:25:07.476 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1698 source=172.19.0.1
+2025-11-07-00:25:07.492 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1698
+2025-11-07-00:25:24.395 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1699 source=172.19.0.1
+2025-11-07-00:25:24.414 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1699
+2025-11-07-00:25:37.986 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1700 source=172.19.0.1
+2025-11-07-00:25:38.001 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1700
+2025-11-07-00:25:54.907 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1701 source=172.19.0.1
+2025-11-07-00:25:54.925 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1701
+2025-11-07-00:26:08.499 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1702 source=172.19.0.1
+2025-11-07-00:26:08.534 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1702
+2025-11-07-00:26:25.416 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1703 source=172.19.0.1
+2025-11-07-00:26:25.435 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1703
+2025-11-07-00:26:38.999 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1704 source=172.19.0.1
+2025-11-07-00:26:39.016 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1704
+2025-11-07-00:26:55.919 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1705 source=172.19.0.1
+2025-11-07-00:26:55.935 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1705
+2025-11-07-00:27:09.501 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1706 source=172.19.0.1
+2025-11-07-00:27:09.524 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1706
+2025-11-07-00:27:23.090 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1707 source=172.19.0.1
+2025-11-07-00:27:23.107 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1707
+2025-11-07-00:27:40.012 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1708 source=172.19.0.1
+2025-11-07-00:27:40.028 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1708
+2025-11-07-00:27:53.592 [epollEventLoopGroup-4-29] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1709 source=172.19.0.1
+2025-11-07-00:27:53.610 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1709
+2025-11-07-00:28:10.510 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1710 source=172.19.0.1
+2025-11-07-00:28:10.527 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1710
+2025-11-07-00:28:24.094 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1711 source=172.19.0.1
+2025-11-07-00:28:24.118 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1711
+2025-11-07-00:28:41.029 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1712 source=172.19.0.1
+2025-11-07-00:28:41.046 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1712
+2025-11-07-00:28:54.602 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1713 source=172.19.0.1
+2025-11-07-00:28:54.617 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1713
+2025-11-07-00:29:11.543 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1714 source=172.19.0.1
+2025-11-07-00:29:11.561 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1714
+2025-11-07-00:29:25.108 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1715 source=172.19.0.1
+2025-11-07-00:29:25.145 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1715
+2025-11-07-00:29:38.694 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1716 source=172.19.0.1
+2025-11-07-00:29:38.711 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1716
+2025-11-07-00:29:55.620 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1717 source=172.19.0.1
+2025-11-07-00:29:55.639 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1717
+2025-11-07-00:30:09.221 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1718 source=172.19.0.1
+2025-11-07-00:30:09.238 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1718
+2025-11-07-00:30:26.144 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1719 source=172.19.0.1
+2025-11-07-00:30:26.166 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1719
+2025-11-07-00:30:39.729 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1720 source=172.19.0.1
+2025-11-07-00:30:39.747 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1720
+2025-11-07-00:30:56.635 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1721 source=172.19.0.1
+2025-11-07-00:30:56.657 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1721
+2025-11-07-00:31:10.229 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1722 source=172.19.0.1
+2025-11-07-00:31:10.250 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1722
+2025-11-07-00:31:27.145 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1723 source=172.19.0.1
+2025-11-07-00:31:27.162 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1723
+2025-11-07-00:31:40.729 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1724 source=172.19.0.1
+2025-11-07-00:31:40.747 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1724
+2025-11-07-00:31:57.648 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1725 source=172.19.0.1
+2025-11-07-00:31:57.663 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1725
+2025-11-07-00:32:11.234 [epollEventLoopGroup-4-46] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1726 source=172.19.0.1
+2025-11-07-00:32:11.258 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1726
+2025-11-07-00:32:24.808 [epollEventLoopGroup-4-47] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1727 source=172.19.0.1
+2025-11-07-00:32:24.825 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1727
+2025-11-07-00:32:41.730 [epollEventLoopGroup-4-48] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1728 source=172.19.0.1
+2025-11-07-00:32:41.748 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1728
+2025-11-07-00:32:55.305 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1729 source=172.19.0.1
+2025-11-07-00:32:55.322 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1729
+2025-11-07-00:33:12.231 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1730 source=172.19.0.1
+2025-11-07-00:33:12.246 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1730
+2025-11-07-00:33:25.820 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1731 source=172.19.0.1
+2025-11-07-00:33:25.844 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1731
+2025-11-07-00:33:42.731 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1732 source=172.19.0.1
+2025-11-07-00:33:42.749 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1732
+2025-11-07-00:33:56.312 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1733 source=172.19.0.1
+2025-11-07-00:33:56.329 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1733
+2025-11-07-00:34:13.224 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1734 source=172.19.0.1
+2025-11-07-00:34:13.242 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1734
+2025-11-07-00:34:26.814 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1735 source=172.19.0.1
+2025-11-07-00:34:26.835 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1735
+2025-11-07-00:34:43.734 [epollEventLoopGroup-4-8] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1736 source=172.19.0.1
+2025-11-07-00:34:43.751 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1736
+2025-11-07-00:34:57.312 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1737 source=172.19.0.1
+2025-11-07-00:34:57.332 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1737
+2025-11-07-00:35:10.920 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1738 source=172.19.0.1
+2025-11-07-00:35:10.938 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1738
+2025-11-07-00:35:27.818 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1739 source=172.19.0.1
+2025-11-07-00:35:27.835 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1739
+2025-11-07-00:35:41.400 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1740 source=172.19.0.1
+2025-11-07-00:35:41.416 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1740
+2025-11-07-00:35:58.327 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1741 source=172.19.0.1
+2025-11-07-00:35:58.342 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1741
+2025-11-07-00:36:11.913 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1742 source=172.19.0.1
+2025-11-07-00:36:11.941 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1742
+2025-11-07-00:36:28.829 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1743 source=172.19.0.1
+2025-11-07-00:36:28.845 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1743
+2025-11-07-00:36:42.415 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1744 source=172.19.0.1
+2025-11-07-00:36:42.437 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1744
+2025-11-07-00:36:59.331 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1745 source=172.19.0.1
+2025-11-07-00:36:59.346 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1745
+2025-11-07-00:37:12.931 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1746 source=172.19.0.1
+2025-11-07-00:37:12.956 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1746
+2025-11-07-00:37:29.863 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1747 source=172.19.0.1
+2025-11-07-00:37:29.879 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1747
+2025-11-07-00:37:43.453 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1748 source=172.19.0.1
+2025-11-07-00:37:43.471 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1748
+2025-11-07-00:37:57.044 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1749 source=172.19.0.1
+2025-11-07-00:37:57.072 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1749
+2025-11-07-00:38:13.953 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1750 source=172.19.0.1
+2025-11-07-00:38:13.972 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1750
+2025-11-07-00:38:27.545 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1751 source=172.19.0.1
+2025-11-07-00:38:27.562 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1751
+2025-11-07-00:38:44.457 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1752 source=172.19.0.1
+2025-11-07-00:38:44.477 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1752
+2025-11-07-00:38:58.042 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1753 source=172.19.0.1
+2025-11-07-00:38:58.061 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1753
+2025-11-07-00:39:14.959 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1754 source=172.19.0.1
+2025-11-07-00:39:14.979 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1754
+2025-11-07-00:39:28.544 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1755 source=172.19.0.1
+2025-11-07-00:39:28.562 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1755
+2025-11-07-00:39:45.470 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1756 source=172.19.0.1
+2025-11-07-00:39:45.486 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1756
+2025-11-07-00:39:59.060 [epollEventLoopGroup-4-29] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1757 source=172.19.0.1
+2025-11-07-00:39:59.076 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1757
+2025-11-07-00:40:15.988 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1758 source=172.19.0.1
+2025-11-07-00:40:16.008 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1758
+2025-11-07-00:40:29.579 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1759 source=172.19.0.1
+2025-11-07-00:40:29.596 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1759
+2025-11-07-00:40:43.169 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1760 source=172.19.0.1
+2025-11-07-00:40:43.185 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1760
+2025-11-07-00:41:00.110 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1761 source=172.19.0.1
+2025-11-07-00:41:00.126 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1761
+2025-11-07-00:41:13.698 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1762 source=172.19.0.1
+2025-11-07-00:41:13.786 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1762
+2025-11-07-00:41:30.623 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1763 source=172.19.0.1
+2025-11-07-00:41:30.640 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1763
+2025-11-07-00:41:44.211 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1764 source=172.19.0.1
+2025-11-07-00:41:44.226 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1764
+2025-11-07-00:42:01.130 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1765 source=172.19.0.1
+2025-11-07-00:42:01.149 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1765
+2025-11-07-00:42:14.720 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1766 source=172.19.0.1
+2025-11-07-00:42:14.738 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1766
+2025-11-07-00:42:31.632 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1767 source=172.19.0.1
+2025-11-07-00:42:31.651 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1767
+2025-11-07-00:42:45.213 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1768 source=172.19.0.1
+2025-11-07-00:42:45.234 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1768
+2025-11-07-00:42:58.804 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1769 source=172.19.0.1
+2025-11-07-00:42:58.821 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1769
+2025-11-07-00:43:15.721 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1770 source=172.19.0.1
+2025-11-07-00:43:15.742 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1770
+2025-11-07-00:43:29.300 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1771 source=172.19.0.1
+2025-11-07-00:43:29.322 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1771
+2025-11-07-00:43:46.225 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1772 source=172.19.0.1
+2025-11-07-00:43:46.241 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1772
+2025-11-07-00:43:59.814 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1773 source=172.19.0.1
+2025-11-07-00:43:59.839 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1773
+2025-11-07-00:44:16.726 [epollEventLoopGroup-4-46] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1774 source=172.19.0.1
+2025-11-07-00:44:16.743 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1774
+2025-11-07-00:44:30.330 [epollEventLoopGroup-4-47] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1775 source=172.19.0.1
+2025-11-07-00:44:30.350 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1775
+2025-11-07-00:44:47.248 [epollEventLoopGroup-4-48] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1776 source=172.19.0.1
+2025-11-07-00:44:47.264 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1776
+2025-11-07-00:45:00.832 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1777 source=172.19.0.1
+2025-11-07-00:45:00.853 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1777
+2025-11-07-00:45:17.755 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1778 source=172.19.0.1
+2025-11-07-00:45:17.773 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1778
+2025-11-07-00:45:31.334 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1779 source=172.19.0.1
+2025-11-07-00:45:31.353 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1779
+2025-11-07-00:45:44.935 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1780 source=172.19.0.1
+2025-11-07-00:45:44.955 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1780
+2025-11-07-00:46:01.853 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1781 source=172.19.0.1
+2025-11-07-00:46:01.885 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1781
+2025-11-07-00:46:15.442 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1782 source=172.19.0.1
+2025-11-07-00:46:15.458 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1782
+2025-11-07-00:46:32.363 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1783 source=172.19.0.1
+2025-11-07-00:46:32.382 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1783
+2025-11-07-00:46:45.960 [epollEventLoopGroup-4-8] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1784 source=172.19.0.1
+2025-11-07-00:46:45.979 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1784
+2025-11-07-00:47:02.888 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1785 source=172.19.0.1
+2025-11-07-00:47:02.903 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1785
+2025-11-07-00:47:16.465 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1786 source=172.19.0.1
+2025-11-07-00:47:16.485 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1786
+2025-11-07-00:47:33.382 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1787 source=172.19.0.1
+2025-11-07-00:47:33.398 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1787
+2025-11-07-00:47:46.957 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1788 source=172.19.0.1
+2025-11-07-00:47:46.974 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1788
+2025-11-07-00:48:03.877 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1789 source=172.19.0.1
+2025-11-07-00:48:03.898 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1789
+2025-11-07-00:48:17.455 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1790 source=172.19.0.1
+2025-11-07-00:48:17.478 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1790
+2025-11-07-00:48:31.032 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1791 source=172.19.0.1
+2025-11-07-00:48:31.049 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1791
+2025-11-07-00:48:47.956 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1792 source=172.19.0.1
+2025-11-07-00:48:47.973 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1792
+2025-11-07-00:49:01.563 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1793 source=172.19.0.1
+2025-11-07-00:49:01.581 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1793
+2025-11-07-00:49:18.489 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1794 source=172.19.0.1
+2025-11-07-00:49:18.507 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1794
+2025-11-07-00:49:32.073 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1795 source=172.19.0.1
+2025-11-07-00:49:32.095 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1795
+2025-11-07-00:49:48.975 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1796 source=172.19.0.1
+2025-11-07-00:49:49.005 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1796
+2025-11-07-00:50:02.561 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1797 source=172.19.0.1
+2025-11-07-00:50:02.576 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1797
+2025-11-07-00:50:19.489 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1798 source=172.19.0.1
+2025-11-07-00:50:19.508 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1798
+2025-11-07-00:50:33.058 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1799 source=172.19.0.1
+2025-11-07-00:50:33.079 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1799
+2025-11-07-00:50:49.973 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1800 source=172.19.0.1
+2025-11-07-00:50:49.989 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1800
+2025-11-07-00:51:03.550 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1801 source=172.19.0.1
+2025-11-07-00:51:03.569 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1801
+2025-11-07-00:51:17.154 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1802 source=172.19.0.1
+2025-11-07-00:51:17.173 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1802
+2025-11-07-00:51:34.064 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1803 source=172.19.0.1
+2025-11-07-00:51:34.079 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1803
+2025-11-07-00:51:47.640 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1804 source=172.19.0.1
+2025-11-07-00:51:47.656 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1804
+2025-11-07-00:52:04.571 [epollEventLoopGroup-4-29] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1805 source=172.19.0.1
+2025-11-07-00:52:04.588 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1805
+2025-11-07-00:52:18.162 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1806 source=172.19.0.1
+2025-11-07-00:52:18.189 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1806
+2025-11-07-00:52:35.075 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1807 source=172.19.0.1
+2025-11-07-00:52:35.111 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1807
+2025-11-07-00:52:48.659 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1808 source=172.19.0.1
+2025-11-07-00:52:48.674 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1808
+2025-11-07-00:53:05.572 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1809 source=172.19.0.1
+2025-11-07-00:53:05.588 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1809
+2025-11-07-00:53:19.168 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1810 source=172.19.0.1
+2025-11-07-00:53:19.189 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1810
+2025-11-07-00:53:33.867 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1811 source=172.19.0.1
+2025-11-07-00:53:33.893 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1811
+2025-11-07-00:53:49.676 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1812 source=172.19.0.1
+2025-11-07-00:53:49.693 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1812
+2025-11-07-00:54:03.260 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1813 source=172.19.0.1
+2025-11-07-00:54:03.276 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1813
+2025-11-07-00:54:20.178 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1814 source=172.19.0.1
+2025-11-07-00:54:20.195 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1814
+2025-11-07-00:54:33.771 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1815 source=172.19.0.1
+2025-11-07-00:54:33.787 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1815
+2025-11-07-00:54:50.693 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1816 source=172.19.0.1
+2025-11-07-00:54:50.709 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1816
+2025-11-07-00:55:04.281 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1817 source=172.19.0.1
+2025-11-07-00:55:04.297 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1817
+2025-11-07-00:55:21.205 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1818 source=172.19.0.1
+2025-11-07-00:55:21.222 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1818
+2025-11-07-00:55:34.792 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1819 source=172.19.0.1
+2025-11-07-00:55:34.809 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1819
+2025-11-07-00:55:51.702 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1820 source=172.19.0.1
+2025-11-07-00:55:51.718 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1820
+2025-11-07-00:56:05.293 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1821 source=172.19.0.1
+2025-11-07-00:56:05.313 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1821
+2025-11-07-00:56:18.881 [epollEventLoopGroup-4-46] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1822 source=172.19.0.1
+2025-11-07-00:56:18.897 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1822
+2025-11-07-00:56:35.805 [epollEventLoopGroup-4-47] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1823 source=172.19.0.1
+2025-11-07-00:56:35.824 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1823
+2025-11-07-00:56:49.389 [epollEventLoopGroup-4-48] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1824 source=172.19.0.1
+2025-11-07-00:56:49.408 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1824
+2025-11-07-00:57:06.316 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1825 source=172.19.0.1
+2025-11-07-00:57:06.335 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1825
+2025-11-07-00:57:19.905 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1826 source=172.19.0.1
+2025-11-07-00:57:19.928 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1826
+2025-11-07-00:57:36.820 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1827 source=172.19.0.1
+2025-11-07-00:57:36.837 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1827
+2025-11-07-00:57:50.415 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1828 source=172.19.0.1
+2025-11-07-00:57:50.431 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1828
+2025-11-07-00:58:07.323 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1829 source=172.19.0.1
+2025-11-07-00:58:07.346 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1829
+2025-11-07-00:58:20.914 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1830 source=172.19.0.1
+2025-11-07-00:58:20.931 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1830
+2025-11-07-00:58:37.808 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1831 source=172.19.0.1
+2025-11-07-00:58:37.824 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1831
+2025-11-07-00:58:51.394 [epollEventLoopGroup-4-8] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1832 source=172.19.0.1
+2025-11-07-00:58:51.409 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1832
+2025-11-07-00:59:04.986 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1833 source=172.19.0.1
+2025-11-07-00:59:05.004 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1833
+2025-11-07-00:59:21.912 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1834 source=172.19.0.1
+2025-11-07-00:59:21.937 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1834
+2025-11-07-00:59:35.493 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1835 source=172.19.0.1
+2025-11-07-00:59:35.515 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1835
+2025-11-07-00:59:52.410 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1836 source=172.19.0.1
+2025-11-07-00:59:52.428 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1836
+2025-11-07-01:00:05.993 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1837 source=172.19.0.1
+2025-11-07-01:00:06.009 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1837
+2025-11-07-01:00:22.917 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1838 source=172.19.0.1
+2025-11-07-01:00:22.935 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1838
+2025-11-07-01:00:36.506 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1839 source=172.19.0.1
+2025-11-07-01:00:36.527 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1839
+2025-11-07-01:00:53.429 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1840 source=172.19.0.1
+2025-11-07-01:00:53.459 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1840
+2025-11-07-01:01:07.013 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1841 source=172.19.0.1
+2025-11-07-01:01:07.034 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1841
+2025-11-07-01:01:23.937 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1842 source=172.19.0.1
+2025-11-07-01:01:23.955 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1842
+2025-11-07-01:01:37.527 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1843 source=172.19.0.1
+2025-11-07-01:01:37.542 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1843
+2025-11-07-01:01:51.100 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1844 source=172.19.0.1
+2025-11-07-01:01:51.116 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1844
+2025-11-07-01:02:08.015 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1845 source=172.19.0.1
+2025-11-07-01:02:08.036 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1845
+2025-11-07-01:02:21.609 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1846 source=172.19.0.1
+2025-11-07-01:02:21.625 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1846
+2025-11-07-01:02:38.534 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1847 source=172.19.0.1
+2025-11-07-01:02:38.549 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1847
+2025-11-07-01:02:52.110 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1848 source=172.19.0.1
+2025-11-07-01:02:52.126 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1848
+2025-11-07-01:03:09.031 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1849 source=172.19.0.1
+2025-11-07-01:03:09.048 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1849
+2025-11-07-01:03:22.622 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1850 source=172.19.0.1
+2025-11-07-01:03:22.640 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1850
+2025-11-07-01:03:39.550 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1851 source=172.19.0.1
+2025-11-07-01:03:39.571 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1851
+2025-11-07-01:03:53.129 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1852 source=172.19.0.1
+2025-11-07-01:03:53.145 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1852
+2025-11-07-01:04:10.046 [epollEventLoopGroup-4-29] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1853 source=172.19.0.1
+2025-11-07-01:04:10.062 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1853
+2025-11-07-01:04:23.643 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1854 source=172.19.0.1
+2025-11-07-01:04:23.677 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1854
+2025-11-07-01:04:37.222 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1855 source=172.19.0.1
+2025-11-07-01:04:37.240 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1855
+2025-11-07-01:04:54.147 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1856 source=172.19.0.1
+2025-11-07-01:04:54.163 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1856
+2025-11-07-01:05:07.725 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1857 source=172.19.0.1
+2025-11-07-01:05:07.743 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1857
+2025-11-07-01:05:24.644 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1858 source=172.19.0.1
+2025-11-07-01:05:24.661 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1858
+2025-11-07-01:05:38.230 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1859 source=172.19.0.1
+2025-11-07-01:05:38.246 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1859
+2025-11-07-01:05:55.155 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1860 source=172.19.0.1
+2025-11-07-01:05:55.170 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1860
+2025-11-07-01:06:08.740 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1861 source=172.19.0.1
+2025-11-07-01:06:08.760 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1861
+2025-11-07-01:06:25.671 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1862 source=172.19.0.1
+2025-11-07-01:06:25.684 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1862
+2025-11-07-01:06:39.241 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1863 source=172.19.0.1
+2025-11-07-01:06:39.257 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1863
+2025-11-07-01:06:52.821 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1864 source=172.19.0.1
+2025-11-07-01:06:52.838 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1864
+2025-11-07-01:07:09.764 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1865 source=172.19.0.1
+2025-11-07-01:07:09.785 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1865
+2025-11-07-01:07:23.347 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1866 source=172.19.0.1
+2025-11-07-01:07:23.369 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1866
+2025-11-07-01:07:40.261 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1867 source=172.19.0.1
+2025-11-07-01:07:40.276 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1867
+2025-11-07-01:07:53.873 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1868 source=172.19.0.1
+2025-11-07-01:07:53.891 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1868
+2025-11-07-01:08:10.802 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1869 source=172.19.0.1
+2025-11-07-01:08:10.821 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1869
+2025-11-07-01:08:24.380 [epollEventLoopGroup-4-46] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1870 source=172.19.0.1
+2025-11-07-01:08:24.398 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1870
+2025-11-07-01:08:41.291 [epollEventLoopGroup-4-47] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1871 source=172.19.0.1
+2025-11-07-01:08:41.310 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1871
+2025-11-07-01:08:54.872 [epollEventLoopGroup-4-48] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1872 source=172.19.0.1
+2025-11-07-01:08:54.889 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1872
+2025-11-07-01:09:11.808 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1873 source=172.19.0.1
+2025-11-07-01:09:11.825 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1873
+2025-11-07-01:09:25.396 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1874 source=172.19.0.1
+2025-11-07-01:09:25.425 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1874
+2025-11-07-01:09:38.973 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1875 source=172.19.0.1
+2025-11-07-01:09:38.991 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1875
+2025-11-07-01:09:55.887 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1876 source=172.19.0.1
+2025-11-07-01:09:55.908 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1876
+2025-11-07-01:10:09.474 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1877 source=172.19.0.1
+2025-11-07-01:10:09.491 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1877
+2025-11-07-01:10:26.389 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1878 source=172.19.0.1
+2025-11-07-01:10:26.421 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1878
+2025-11-07-01:10:39.969 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1879 source=172.19.0.1
+2025-11-07-01:10:40.000 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1879
+2025-11-07-01:10:56.886 [epollEventLoopGroup-4-8] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1880 source=172.19.0.1
+2025-11-07-01:10:56.914 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1880
+2025-11-07-01:11:10.470 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1881 source=172.19.0.1
+2025-11-07-01:11:10.492 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1881
+2025-11-07-01:11:27.395 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1882 source=172.19.0.1
+2025-11-07-01:11:27.413 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1882
+2025-11-07-01:11:40.970 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1883 source=172.19.0.1
+2025-11-07-01:11:40.988 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1883
+2025-11-07-01:11:57.899 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1884 source=172.19.0.1
+2025-11-07-01:11:57.915 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1884
+2025-11-07-01:12:11.487 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1885 source=172.19.0.1
+2025-11-07-01:12:11.507 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1885
+2025-11-07-01:12:25.076 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1886 source=172.19.0.1
+2025-11-07-01:12:25.092 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1886
+2025-11-07-01:12:41.990 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1887 source=172.19.0.1
+2025-11-07-01:12:42.007 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1887
+2025-11-07-01:12:55.572 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1888 source=172.19.0.1
+2025-11-07-01:12:55.590 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1888
+2025-11-07-01:13:12.500 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1889 source=172.19.0.1
+2025-11-07-01:13:12.517 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1889
+2025-11-07-01:13:26.095 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1890 source=172.19.0.1
+2025-11-07-01:13:26.117 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1890
+2025-11-07-01:13:42.999 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1891 source=172.19.0.1
+2025-11-07-01:13:43.016 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1891
+2025-11-07-01:13:56.596 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1892 source=172.19.0.1
+2025-11-07-01:13:56.617 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1892
+2025-11-07-01:14:13.523 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1893 source=172.19.0.1
+2025-11-07-01:14:13.540 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1893
+2025-11-07-01:14:27.117 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1894 source=172.19.0.1
+2025-11-07-01:14:27.144 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1894
+2025-11-07-01:14:44.025 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1895 source=172.19.0.1
+2025-11-07-01:14:44.043 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1895
+2025-11-07-01:14:57.595 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1896 source=172.19.0.1
+2025-11-07-01:14:57.611 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1896
+2025-11-07-01:15:11.169 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1897 source=172.19.0.1
+2025-11-07-01:15:11.186 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1897
+2025-11-07-01:15:28.092 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1898 source=172.19.0.1
+2025-11-07-01:15:28.114 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1898
+2025-11-07-01:15:41.685 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1899 source=172.19.0.1
+2025-11-07-01:15:41.700 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1899
+2025-11-07-01:15:58.605 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1900 source=172.19.0.1
+2025-11-07-01:15:58.624 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1900
+2025-11-07-01:16:12.205 [epollEventLoopGroup-4-29] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1901 source=172.19.0.1
+2025-11-07-01:16:12.234 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1901
+2025-11-07-01:16:29.114 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1902 source=172.19.0.1
+2025-11-07-01:16:29.131 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1902
+2025-11-07-01:16:42.694 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1903 source=172.19.0.1
+2025-11-07-01:16:42.712 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1903
+2025-11-07-01:16:59.602 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1904 source=172.19.0.1
+2025-11-07-01:16:59.618 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1904
+2025-11-07-01:17:13.191 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1905 source=172.19.0.1
+2025-11-07-01:17:13.213 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1905
+2025-11-07-01:17:30.115 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1906 source=172.19.0.1
+2025-11-07-01:17:30.144 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1906
+2025-11-07-01:17:43.707 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1907 source=172.19.0.1
+2025-11-07-01:17:43.725 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1907
+2025-11-07-01:17:57.290 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1908 source=172.19.0.1
+2025-11-07-01:17:57.311 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1908
+2025-11-07-01:18:14.206 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1909 source=172.19.0.1
+2025-11-07-01:18:14.227 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1909
+2025-11-07-01:18:27.786 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1910 source=172.19.0.1
+2025-11-07-01:18:27.808 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1910
+2025-11-07-01:18:44.714 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1911 source=172.19.0.1
+2025-11-07-01:18:44.733 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1911
+2025-11-07-01:18:58.287 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1912 source=172.19.0.1
+2025-11-07-01:18:58.315 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1912
+2025-11-07-01:19:15.218 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1913 source=172.19.0.1
+2025-11-07-01:19:15.237 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1913
+2025-11-07-01:19:28.804 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1914 source=172.19.0.1
+2025-11-07-01:19:28.832 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1914
+2025-11-07-01:19:45.738 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1915 source=172.19.0.1
+2025-11-07-01:19:45.760 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1915
+2025-11-07-01:19:59.330 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1916 source=172.19.0.1
+2025-11-07-01:19:59.350 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1916
+2025-11-07-01:20:12.918 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1917 source=172.19.0.1
+2025-11-07-01:20:12.935 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1917
+2025-11-07-01:20:29.834 [epollEventLoopGroup-4-46] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1918 source=172.19.0.1
+2025-11-07-01:20:29.851 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1918
+2025-11-07-01:20:43.416 [epollEventLoopGroup-4-47] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1919 source=172.19.0.1
+2025-11-07-01:20:43.433 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1919
+2025-11-07-01:21:00.325 [epollEventLoopGroup-4-48] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1920 source=172.19.0.1
+2025-11-07-01:21:00.343 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1920
+2025-11-07-01:21:13.914 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1921 source=172.19.0.1
+2025-11-07-01:21:13.934 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1921
+2025-11-07-01:21:30.828 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1922 source=172.19.0.1
+2025-11-07-01:21:30.845 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1922
+2025-11-07-01:21:44.412 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1923 source=172.19.0.1
+2025-11-07-01:21:44.428 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1923
+2025-11-07-01:22:01.338 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1924 source=172.19.0.1
+2025-11-07-01:22:01.355 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1924
+2025-11-07-01:22:14.919 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1925 source=172.19.0.1
+2025-11-07-01:22:14.940 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1925
+2025-11-07-01:22:31.829 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1926 source=172.19.0.1
+2025-11-07-01:22:31.844 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1926
+2025-11-07-01:22:45.418 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1927 source=172.19.0.1
+2025-11-07-01:22:45.437 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1927
+2025-11-07-01:22:59.010 [epollEventLoopGroup-4-8] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1928 source=172.19.0.1
+2025-11-07-01:22:59.025 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1928
+2025-11-07-01:23:15.924 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1929 source=172.19.0.1
+2025-11-07-01:23:15.945 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1929
+2025-11-07-01:23:29.508 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1930 source=172.19.0.1
+2025-11-07-01:23:29.526 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1930
+2025-11-07-01:23:46.409 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1931 source=172.19.0.1
+2025-11-07-01:23:46.427 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1931
+2025-11-07-01:23:59.996 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1932 source=172.19.0.1
+2025-11-07-01:24:00.014 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1932
+2025-11-07-01:24:16.911 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1933 source=172.19.0.1
+2025-11-07-01:24:16.927 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1933
+2025-11-07-01:24:30.501 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1934 source=172.19.0.1
+2025-11-07-01:24:30.521 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1934
+2025-11-07-01:24:47.443 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1935 source=172.19.0.1
+2025-11-07-01:24:47.460 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1935
+2025-11-07-01:25:01.016 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1936 source=172.19.0.1
+2025-11-07-01:25:01.031 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1936
+2025-11-07-01:25:17.929 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1937 source=172.19.0.1
+2025-11-07-01:25:17.945 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1937
+2025-11-07-01:25:31.525 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1938 source=172.19.0.1
+2025-11-07-01:25:31.541 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1938
+2025-11-07-01:25:45.113 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1939 source=172.19.0.1
+2025-11-07-01:25:45.133 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1939
+2025-11-07-01:26:02.024 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1940 source=172.19.0.1
+2025-11-07-01:26:02.046 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1940
+2025-11-07-01:26:15.608 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1941 source=172.19.0.1
+2025-11-07-01:26:15.629 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1941
+2025-11-07-01:26:32.525 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1942 source=172.19.0.1
+2025-11-07-01:26:32.541 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1942
+2025-11-07-01:26:46.116 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1943 source=172.19.0.1
+2025-11-07-01:26:46.132 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1943
+2025-11-07-01:27:03.047 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1944 source=172.19.0.1
+2025-11-07-01:27:03.063 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1944
+2025-11-07-01:27:16.635 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1945 source=172.19.0.1
+2025-11-07-01:27:16.653 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1945
+2025-11-07-01:27:33.558 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1946 source=172.19.0.1
+2025-11-07-01:27:33.585 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1946
+2025-11-07-01:27:47.153 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1947 source=172.19.0.1
+2025-11-07-01:27:47.169 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1947
+2025-11-07-01:28:04.072 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1948 source=172.19.0.1
+2025-11-07-01:28:04.088 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1948
+2025-11-07-01:28:17.649 [epollEventLoopGroup-4-29] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1949 source=172.19.0.1
+2025-11-07-01:28:17.672 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1949
+2025-11-07-01:28:31.233 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1950 source=172.19.0.1
+2025-11-07-01:28:31.250 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1950
+2025-11-07-01:28:48.139 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1951 source=172.19.0.1
+2025-11-07-01:28:48.156 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1951
+2025-11-07-01:29:01.711 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1952 source=172.19.0.1
+2025-11-07-01:29:01.735 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1952
+2025-11-07-01:29:18.621 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1953 source=172.19.0.1
+2025-11-07-01:29:18.637 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1953
+2025-11-07-01:29:32.216 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1954 source=172.19.0.1
+2025-11-07-01:29:32.240 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1954
+2025-11-07-01:29:49.135 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1955 source=172.19.0.1
+2025-11-07-01:29:49.150 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1955
+2025-11-07-01:30:02.720 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1956 source=172.19.0.1
+2025-11-07-01:30:02.735 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1956
+2025-11-07-01:30:19.637 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1957 source=172.19.0.1
+2025-11-07-01:30:19.656 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1957
+2025-11-07-01:30:33.237 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1958 source=172.19.0.1
+2025-11-07-01:30:33.253 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1958
+2025-11-07-01:30:50.146 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1959 source=172.19.0.1
+2025-11-07-01:30:50.164 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1959
+2025-11-07-01:31:03.736 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1960 source=172.19.0.1
+2025-11-07-01:31:03.754 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1960
+2025-11-07-01:31:17.321 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1961 source=172.19.0.1
+2025-11-07-01:31:17.339 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1961
+2025-11-07-01:31:34.250 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1962 source=172.19.0.1
+2025-11-07-01:31:34.269 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1962
+2025-11-07-01:31:47.836 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1963 source=172.19.0.1
+2025-11-07-01:31:47.853 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1963
+2025-11-07-01:32:04.754 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1964 source=172.19.0.1
+2025-11-07-01:32:04.776 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1964
+2025-11-07-01:32:18.342 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1965 source=172.19.0.1
+2025-11-07-01:32:18.360 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1965
+2025-11-07-01:50:05.844 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 60 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-01:50:05.848 [main] INFO tak.server.ServerConfiguration - The following 2 profiles are active: "plugins", "messaging"
+2025-11-07-01:50:18.590 [main] INFO tak.server.util.DataSourceUtils - 24 CPU cores detected. Postgres server maximum allowed connections value is 100. The computed connection pool size is: 49
+2025-11-07-01:50:19.891 [main] WARN org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-07-01:50:30.859 [services-deployment-worker-#110] WARN com.bbn.marti.service.SSLConfig - TLS enabled, but no certificate revocation lists, and OSCP is not enabled in Core Config!
+2025-11-07-01:50:33.730 [main] ERROR tak.server.util.JAXBUtils - UserAuthenticationFile.xml not found.
+2025-11-07-01:50:40.749 [main] INFO c.b.m.sync.JDBCEnterpriseSyncService - file cache explicity disabled.
+2025-11-07-01:50:40.755 [main] INFO c.b.marti.service.SubmissionService - input class type: Input
+2025-11-07-01:50:40.756 [main] INFO c.b.marti.service.SubmissionService - Configuring network input com.bbn.marti.config.Input stdssl: 
+2025-11-07-01:50:40.869 [main] WARN com.bbn.marti.service.SSLConfig - TLS enabled, but no certificate revocation lists, and OSCP is not enabled in Core Config!
+2025-11-07-01:50:41.485 [Thread-5] INFO c.b.marti.nio.netty.NioNettyBuilder - Successfully Started Netty Server for TlsServerInitializer on Port 8089 with watermark WriteBufferWaterMark(low: 49152, high: 98304)
+2025-11-07-01:50:42.662 [main] INFO t.server.federation.FederationServer - Federation disabled in config. Not starting V2 federation server.
+2025-11-07-01:50:42.686 [main] INFO com.bbn.marti.nio.server.NioServer - max memory (bytes): 2699034624
+2025-11-07-01:50:42.686 [main] INFO com.bbn.marti.nio.server.NioServer - Server started
+2025-11-07-01:50:42.742 [main] INFO t.server.cache.DatafeedCacheHelper - Done initializing PluginDatafeedCacheHelper with buffer cache value: 300 seconds
+2025-11-07-01:50:42.763 [main] INFO com.bbn.marti.util.VersionBean - TAK Server version 5.2-RELEASE-16-main
+2025-11-07-01:50:42.764 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - file cache explicity disabled.
+2025-11-07-01:50:42.764 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - Initialzed EnterpriseSyncCacheHelper with file cache TTL 120 seconds. Implementation: caffeine
+2025-11-07-01:50:42.766 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 37.144 seconds (process running for 55.78)
+2025-11-07-01:50:42.785 [main] INFO tak.server.ServerConfiguration - Started TAK Server messaging Microservice.
+2025-11-07-01:50:54.420 [svc-#138] INFO c.bbn.marti.groups.FileAuthenticator - adding new file-based user WinTAK-Paul
+2025-11-07-01:50:56.744 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1 source=172.19.0.1
+2025-11-07-01:50:57.575 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:1
+2025-11-07-01:50:59.978 [svc-#162] INFO c.bbn.marti.groups.FileAuthenticator - updating existing file-based user WinTAK-Paul
+2025-11-07-01:51:08.453 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:2 source=172.19.0.1
+2025-11-07-01:51:08.533 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:2
+2025-11-07-01:51:25.387 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:3 source=172.19.0.1
+2025-11-07-01:51:25.502 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:3
+2025-11-07-01:51:38.979 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:4 source=172.19.0.1
+2025-11-07-01:51:39.066 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:4
+2025-11-07-01:51:52.574 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:5 source=172.19.0.1
+2025-11-07-01:51:52.660 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:5
+2025-11-07-01:52:09.517 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:6 source=172.19.0.1
+2025-11-07-01:52:09.614 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:6
+2025-11-07-01:52:23.114 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:7 source=172.19.0.1
+2025-11-07-01:52:23.186 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:7
+2025-11-07-01:52:40.054 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:8 source=172.19.0.1
+2025-11-07-01:52:40.123 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:8
+2025-11-07-01:52:53.646 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:9 source=172.19.0.1
+2025-11-07-01:52:53.724 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:9
+2025-11-07-01:53:10.572 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:10 source=172.19.0.1
+2025-11-07-01:53:10.648 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:10
+2025-11-07-01:53:24.175 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:11 source=172.19.0.1
+2025-11-07-01:53:24.247 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:11
+2025-11-07-01:53:41.092 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:12 source=172.19.0.1
+2025-11-07-01:53:41.146 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:12
+2025-11-07-01:53:54.705 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:13 source=172.19.0.1
+2025-11-07-01:53:54.772 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:13
+2025-11-07-01:54:11.633 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:14 source=172.19.0.1
+2025-11-07-01:54:11.702 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:14
+2025-11-07-01:54:25.225 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:15 source=172.19.0.1
+2025-11-07-01:54:25.287 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:15
+2025-11-07-01:54:38.819 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:16 source=172.19.0.1
+2025-11-07-01:54:38.877 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:16
+2025-11-07-01:54:55.759 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:17 source=172.19.0.1
+2025-11-07-01:54:55.830 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:17
+2025-11-07-01:55:09.330 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:18 source=172.19.0.1
+2025-11-07-01:55:09.398 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:18
+2025-11-07-01:55:26.284 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:19 source=172.19.0.1
+2025-11-07-01:55:26.367 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:19
+2025-11-07-01:55:39.857 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:20 source=172.19.0.1
+2025-11-07-01:55:39.909 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:20
+2025-11-07-01:55:56.798 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:21 source=172.19.0.1
+2025-11-07-01:55:56.875 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:21
+2025-11-07-01:56:10.370 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:22 source=172.19.0.1
+2025-11-07-01:56:10.417 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:22
+2025-11-07-01:56:27.320 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:23 source=172.19.0.1
+2025-11-07-01:56:27.377 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:23
+2025-11-07-01:56:40.903 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:24 source=172.19.0.1
+2025-11-07-01:56:40.946 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:24
+2025-11-07-01:56:57.830 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:25 source=172.19.0.1
+2025-11-07-01:56:57.871 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:25
+2025-11-07-01:57:11.418 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:26 source=172.19.0.1
+2025-11-07-01:57:11.457 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:26
+2025-11-07-01:57:25.029 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:27 source=172.19.0.1
+2025-11-07-01:57:25.081 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:27
+2025-11-07-01:57:41.955 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:28 source=172.19.0.1
+2025-11-07-01:57:42.003 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:28
+2025-11-07-01:57:55.569 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:29 source=172.19.0.1
+2025-11-07-01:57:55.601 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:29
+2025-11-07-01:58:12.513 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:30 source=172.19.0.1
+2025-11-07-01:58:12.556 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:30
+2025-11-07-01:58:26.097 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:31 source=172.19.0.1
+2025-11-07-01:58:26.148 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:31
+2025-11-07-01:58:43.058 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:32 source=172.19.0.1
+2025-11-07-01:58:43.101 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:32
+2025-11-07-01:58:56.670 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:33 source=172.19.0.1
+2025-11-07-01:58:56.711 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:33
+2025-11-07-01:59:13.595 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:34 source=172.19.0.1
+2025-11-07-01:59:13.636 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:34
+2025-11-07-01:59:27.163 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:35 source=172.19.0.1
+2025-11-07-01:59:27.196 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:35
+2025-11-07-01:59:44.107 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:36 source=172.19.0.1
+2025-11-07-01:59:44.153 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:36
+2025-11-07-01:59:57.696 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:37 source=172.19.0.1
+2025-11-07-01:59:57.728 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:37
+2025-11-07-02:00:11.286 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:38 source=172.19.0.1
+2025-11-07-02:00:11.324 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:38
+2025-11-07-02:00:28.232 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:39 source=172.19.0.1
+2025-11-07-02:00:28.272 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:39
+2025-11-07-02:00:41.791 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:40 source=172.19.0.1
+2025-11-07-02:00:41.841 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:40
+2025-11-07-02:00:58.714 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:41 source=172.19.0.1
+2025-11-07-02:00:58.746 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:41
+2025-11-07-02:01:12.297 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:42 source=172.19.0.1
+2025-11-07-02:01:12.330 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:42
+2025-11-07-02:01:29.232 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:43 source=172.19.0.1
+2025-11-07-02:01:29.275 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:43
+2025-11-07-02:01:42.809 [epollEventLoopGroup-4-46] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:44 source=172.19.0.1
+2025-11-07-02:01:42.844 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:44
+2025-11-07-02:01:59.730 [epollEventLoopGroup-4-47] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:45 source=172.19.0.1
+2025-11-07-02:01:59.763 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:45
+2025-11-07-02:02:13.314 [epollEventLoopGroup-4-48] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:46 source=172.19.0.1
+2025-11-07-02:02:13.345 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:46
+2025-11-07-02:02:26.904 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:47 source=172.19.0.1
+2025-11-07-02:02:27.964 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:47
+2025-11-07-02:02:43.825 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:48 source=172.19.0.1
+2025-11-07-02:02:43.859 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:48
+2025-11-07-02:02:57.425 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:49 source=172.19.0.1
+2025-11-07-02:02:57.453 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:49
+2025-11-07-02:03:14.375 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:50 source=172.19.0.1
+2025-11-07-02:03:14.426 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:50
+2025-11-07-02:03:27.958 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:51 source=172.19.0.1
+2025-11-07-02:03:27.989 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:51
+2025-11-07-02:03:44.887 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:52 source=172.19.0.1
+2025-11-07-02:03:44.916 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:52
+2025-11-07-02:03:58.480 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:53 source=172.19.0.1
+2025-11-07-02:03:58.513 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:53
+2025-11-07-02:04:15.394 [epollEventLoopGroup-4-8] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:54 source=172.19.0.1
+2025-11-07-02:04:15.428 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:54
+2025-11-07-02:04:28.986 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:55 source=172.19.0.1
+2025-11-07-02:04:29.016 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:55
+2025-11-07-02:04:45.923 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:56 source=172.19.0.1
+2025-11-07-02:04:45.948 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:56
+2025-11-07-02:04:59.515 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:57 source=172.19.0.1
+2025-11-07-02:04:59.538 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:57
+2025-11-07-02:05:13.129 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:58 source=172.19.0.1
+2025-11-07-02:05:13.161 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:58
+2025-11-07-02:05:30.046 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:59 source=172.19.0.1
+2025-11-07-02:05:30.074 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:59
+2025-11-07-02:05:43.630 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:60 source=172.19.0.1
+2025-11-07-02:05:43.665 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:60
+2025-11-07-02:06:00.543 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:61 source=172.19.0.1
+2025-11-07-02:06:00.565 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:61
+2025-11-07-02:06:14.153 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:62 source=172.19.0.1
+2025-11-07-02:06:14.181 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:62
+2025-11-07-02:06:31.057 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:63 source=172.19.0.1
+2025-11-07-02:06:31.082 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:63
+2025-11-07-02:06:44.651 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:64 source=172.19.0.1
+2025-11-07-02:06:44.677 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:64
+2025-11-07-02:07:01.578 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:65 source=172.19.0.1
+2025-11-07-02:07:01.606 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:65
+2025-11-07-02:07:15.165 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:66 source=172.19.0.1
+2025-11-07-02:07:15.202 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:66
+2025-11-07-02:07:32.083 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:67 source=172.19.0.1
+2025-11-07-02:07:32.108 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:67
+2025-11-07-02:07:45.664 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:68 source=172.19.0.1
+2025-11-07-02:07:45.696 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:68
+2025-11-07-02:07:59.241 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:69 source=172.19.0.1
+2025-11-07-02:07:59.269 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:69
+2025-11-07-02:08:16.164 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:70 source=172.19.0.1
+2025-11-07-02:08:16.206 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:70
+2025-11-07-02:08:29.754 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:71 source=172.19.0.1
+2025-11-07-02:08:29.783 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:71
+2025-11-07-02:08:46.679 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:72 source=172.19.0.1
+2025-11-07-02:08:46.712 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:72
+2025-11-07-02:09:00.259 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:73 source=172.19.0.1
+2025-11-07-02:09:00.286 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:73
+2025-11-07-02:09:17.186 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:74 source=172.19.0.1
+2025-11-07-02:09:17.218 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:74
+2025-11-07-02:09:30.790 [epollEventLoopGroup-4-29] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:75 source=172.19.0.1
+2025-11-07-02:09:30.829 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:75
+2025-11-07-02:09:47.705 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:76 source=172.19.0.1
+2025-11-07-02:09:47.735 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:76
+2025-11-07-02:10:01.300 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:77 source=172.19.0.1
+2025-11-07-02:10:01.330 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:77
+2025-11-07-02:10:18.224 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:78 source=172.19.0.1
+2025-11-07-02:10:18.257 [takserver-scheduled-17] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:78
+2025-11-07-02:10:31.802 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:79 source=172.19.0.1
+2025-11-07-02:10:31.836 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:79
+2025-11-07-02:10:45.386 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:80 source=172.19.0.1
+2025-11-07-02:10:45.419 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:80
+2025-11-07-02:11:02.306 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:81 source=172.19.0.1
+2025-11-07-02:11:02.335 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:81
+2025-11-07-02:11:15.886 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:82 source=172.19.0.1
+2025-11-07-02:11:15.916 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:82
+2025-11-07-02:11:32.808 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:83 source=172.19.0.1
+2025-11-07-02:11:32.836 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:83
+2025-11-07-02:11:46.403 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:84 source=172.19.0.1
+2025-11-07-02:11:46.434 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:84
+2025-11-07-02:12:03.323 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:85 source=172.19.0.1
+2025-11-07-02:12:03.349 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:85
+2025-11-07-02:12:16.907 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:86 source=172.19.0.1
+2025-11-07-02:12:16.933 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:86
+2025-11-07-02:12:33.823 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:87 source=172.19.0.1
+2025-11-07-02:12:33.851 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:87
+2025-11-07-02:12:47.431 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:88 source=172.19.0.1
+2025-11-07-02:12:47.458 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:88
+2025-11-07-02:13:04.333 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:89 source=172.19.0.1
+2025-11-07-02:13:04.373 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:89
+2025-11-07-02:13:17.931 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:90 source=172.19.0.1
+2025-11-07-02:13:17.955 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:90
+2025-11-07-02:13:31.520 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:91 source=172.19.0.1
+2025-11-07-02:13:31.549 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:91
+2025-11-07-02:13:48.443 [epollEventLoopGroup-4-46] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:92 source=172.19.0.1
+2025-11-07-02:13:48.473 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:92
+2025-11-07-02:14:02.021 [epollEventLoopGroup-4-47] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:93 source=172.19.0.1
+2025-11-07-02:14:02.050 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:93
+2025-11-07-02:14:18.952 [epollEventLoopGroup-4-48] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:94 source=172.19.0.1
+2025-11-07-02:14:18.981 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:94
+2025-11-07-02:14:32.550 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:95 source=172.19.0.1
+2025-11-07-02:14:32.579 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:95
+2025-11-07-02:14:49.466 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:96 source=172.19.0.1
+2025-11-07-02:14:49.496 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:96
+2025-11-07-02:15:03.055 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:97 source=172.19.0.1
+2025-11-07-02:15:03.082 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:97
+2025-11-07-02:15:19.971 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:98 source=172.19.0.1
+2025-11-07-02:15:19.995 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:98
+2025-11-07-02:15:33.562 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:99 source=172.19.0.1
+2025-11-07-02:15:33.589 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:99
+2025-11-07-02:15:48.146 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:100 source=172.19.0.1
+2025-11-07-02:15:50.501 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:100
+2025-11-07-02:16:04.072 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:101 source=172.19.0.1
+2025-11-07-02:16:04.095 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:101
+2025-11-07-02:16:17.652 [epollEventLoopGroup-4-8] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:102 source=172.19.0.1
+2025-11-07-02:16:17.685 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:102
+2025-11-07-02:16:34.588 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:103 source=172.19.0.1
+2025-11-07-02:16:34.621 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:103
+2025-11-07-02:16:48.161 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:104 source=172.19.0.1
+2025-11-07-02:16:48.191 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:104
+2025-11-07-02:17:05.076 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:105 source=172.19.0.1
+2025-11-07-02:17:05.111 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:105
+2025-11-07-02:17:18.663 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:106 source=172.19.0.1
+2025-11-07-02:17:18.691 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:106
+2025-11-07-02:17:35.590 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:107 source=172.19.0.1
+2025-11-07-02:17:35.620 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:107
+2025-11-07-02:17:49.177 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:108 source=172.19.0.1
+2025-11-07-02:17:49.202 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:108
+2025-11-07-02:18:06.096 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:109 source=172.19.0.1
+2025-11-07-02:18:06.127 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:109
+2025-11-07-02:18:19.684 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:110 source=172.19.0.1
+2025-11-07-02:18:19.709 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:110
+2025-11-07-02:18:33.268 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:111 source=172.19.0.1
+2025-11-07-02:18:33.289 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:111
+2025-11-07-02:18:50.188 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:112 source=172.19.0.1
+2025-11-07-02:18:50.218 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:112
+2025-11-07-02:19:03.791 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:113 source=172.19.0.1
+2025-11-07-02:19:03.813 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:113
+2025-11-07-02:19:20.705 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:114 source=172.19.0.1
+2025-11-07-02:19:20.727 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:114
+2025-11-07-02:19:34.302 [epollEventLoopGroup-4-21] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:115 source=172.19.0.1
+2025-11-07-02:19:34.330 [takserver-scheduled-6] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:115
+2025-11-07-02:19:51.231 [epollEventLoopGroup-4-22] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:116 source=172.19.0.1
+2025-11-07-02:19:51.266 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:116
+2025-11-07-02:20:04.819 [epollEventLoopGroup-4-23] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:117 source=172.19.0.1
+2025-11-07-02:20:04.846 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:117
+2025-11-07-02:20:21.755 [epollEventLoopGroup-4-24] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:118 source=172.19.0.1
+2025-11-07-02:20:21.777 [takserver-scheduled-22] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:118
+2025-11-07-02:20:35.349 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:119 source=172.19.0.1
+2025-11-07-02:20:35.377 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:119
+2025-11-07-02:20:52.279 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:120 source=172.19.0.1
+2025-11-07-02:20:52.305 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:120
+2025-11-07-02:21:05.852 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:121 source=172.19.0.1
+2025-11-07-02:21:05.879 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:121
+2025-11-07-02:21:19.469 [epollEventLoopGroup-4-28] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:122 source=172.19.0.1
+2025-11-07-02:21:19.493 [takserver-scheduled-14] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:122
+2025-11-07-02:21:36.382 [epollEventLoopGroup-4-29] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:123 source=172.19.0.1
+2025-11-07-02:21:36.404 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:123
+2025-11-07-02:21:49.970 [epollEventLoopGroup-4-30] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:124 source=172.19.0.1
+2025-11-07-02:21:49.998 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:124
+2025-11-07-02:22:06.912 [epollEventLoopGroup-4-31] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:125 source=172.19.0.1
+2025-11-07-02:22:06.936 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:125
+2025-11-07-02:22:20.502 [epollEventLoopGroup-4-32] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:126 source=172.19.0.1
+2025-11-07-02:22:20.527 [takserver-scheduled-4] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:126
+2025-11-07-02:22:37.426 [epollEventLoopGroup-4-33] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:127 source=172.19.0.1
+2025-11-07-02:22:37.454 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:127
+2025-11-07-02:22:51.020 [epollEventLoopGroup-4-34] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:128 source=172.19.0.1
+2025-11-07-02:22:51.047 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:128
+2025-11-07-02:23:07.931 [epollEventLoopGroup-4-35] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:129 source=172.19.0.1
+2025-11-07-02:23:07.958 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:129
+2025-11-07-02:23:21.522 [epollEventLoopGroup-4-36] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:130 source=172.19.0.1
+2025-11-07-02:23:21.549 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:130
+2025-11-07-02:23:38.452 [epollEventLoopGroup-4-37] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:131 source=172.19.0.1
+2025-11-07-02:23:38.494 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:131
+2025-11-07-02:23:52.041 [epollEventLoopGroup-4-38] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:132 source=172.19.0.1
+2025-11-07-02:23:52.068 [takserver-scheduled-12] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:132
+2025-11-07-02:24:05.619 [epollEventLoopGroup-4-39] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:133 source=172.19.0.1
+2025-11-07-02:24:05.644 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:133
+2025-11-07-02:24:22.529 [epollEventLoopGroup-4-40] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:134 source=172.19.0.1
+2025-11-07-02:24:22.556 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:134
+2025-11-07-02:24:36.133 [epollEventLoopGroup-4-41] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:135 source=172.19.0.1
+2025-11-07-02:24:36.160 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:135
+2025-11-07-02:24:53.057 [epollEventLoopGroup-4-42] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:136 source=172.19.0.1
+2025-11-07-02:24:53.091 [takserver-scheduled-20] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:136
+2025-11-07-02:25:06.659 [epollEventLoopGroup-4-43] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:137 source=172.19.0.1
+2025-11-07-02:25:06.696 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:137
+2025-11-07-02:25:23.577 [epollEventLoopGroup-4-44] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:138 source=172.19.0.1
+2025-11-07-02:25:23.605 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:138
+2025-11-07-02:25:37.168 [epollEventLoopGroup-4-45] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:139 source=172.19.0.1
+2025-11-07-02:25:37.192 [takserver-scheduled-10] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:139
+2025-11-07-02:25:54.091 [epollEventLoopGroup-4-46] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:140 source=172.19.0.1
+2025-11-07-02:25:54.117 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:140
+2025-11-07-02:26:07.679 [epollEventLoopGroup-4-47] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:141 source=172.19.0.1
+2025-11-07-02:26:07.707 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:141
+2025-11-07-02:26:24.588 [epollEventLoopGroup-4-48] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:142 source=172.19.0.1
+2025-11-07-02:26:24.619 [takserver-scheduled-5] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:142
+2025-11-07-02:26:38.172 [epollEventLoopGroup-4-1] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:143 source=172.19.0.1
+2025-11-07-02:26:38.197 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:143
+2025-11-07-02:26:51.767 [epollEventLoopGroup-4-2] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:144 source=172.19.0.1
+2025-11-07-02:26:51.794 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:144
+2025-11-07-02:27:08.681 [epollEventLoopGroup-4-3] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:145 source=172.19.0.1
+2025-11-07-02:27:08.719 [takserver-scheduled-1] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:145
+2025-11-07-02:27:22.276 [epollEventLoopGroup-4-4] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:146 source=172.19.0.1
+2025-11-07-02:27:22.302 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:146
+2025-11-07-02:27:39.212 [epollEventLoopGroup-4-5] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:147 source=172.19.0.1
+2025-11-07-02:27:39.239 [takserver-scheduled-0] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:147
+2025-11-07-02:27:52.784 [epollEventLoopGroup-4-6] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:148 source=172.19.0.1
+2025-11-07-02:27:52.812 [takserver-scheduled-23] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:148
+2025-11-07-02:28:09.708 [epollEventLoopGroup-4-7] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:149 source=172.19.0.1
+2025-11-07-02:28:09.733 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:149
+2025-11-07-02:28:23.281 [epollEventLoopGroup-4-8] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:150 source=172.19.0.1
+2025-11-07-02:28:23.309 [takserver-scheduled-2] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:150
+2025-11-07-02:28:40.197 [epollEventLoopGroup-4-9] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:151 source=172.19.0.1
+2025-11-07-02:28:40.229 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:151
+2025-11-07-02:28:53.782 [epollEventLoopGroup-4-10] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:152 source=172.19.0.1
+2025-11-07-02:28:53.808 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:152
+2025-11-07-02:29:08.347 [epollEventLoopGroup-4-11] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:153 source=172.19.0.1
+2025-11-07-02:29:08.373 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:153
+2025-11-07-02:29:24.280 [epollEventLoopGroup-4-12] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:154 source=172.19.0.1
+2025-11-07-02:29:24.308 [takserver-scheduled-13] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:154
+2025-11-07-02:29:37.854 [epollEventLoopGroup-4-13] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:155 source=172.19.0.1
+2025-11-07-02:29:37.878 [takserver-scheduled-16] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:155
+2025-11-07-02:29:54.770 [epollEventLoopGroup-4-14] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:156 source=172.19.0.1
+2025-11-07-02:29:54.798 [takserver-scheduled-9] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:156
+2025-11-07-02:30:08.364 [epollEventLoopGroup-4-15] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:157 source=172.19.0.1
+2025-11-07-02:30:08.387 [takserver-scheduled-15] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:157
+2025-11-07-02:30:25.285 [epollEventLoopGroup-4-16] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:158 source=172.19.0.1
+2025-11-07-02:30:25.308 [takserver-scheduled-21] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:158
+2025-11-07-02:30:38.887 [epollEventLoopGroup-4-17] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:159 source=172.19.0.1
+2025-11-07-02:30:38.912 [takserver-scheduled-18] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:159
+2025-11-07-02:30:55.797 [epollEventLoopGroup-4-18] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:160 source=172.19.0.1
+2025-11-07-02:30:55.831 [takserver-scheduled-19] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:160
+2025-11-07-02:31:09.390 [epollEventLoopGroup-4-19] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:161 source=172.19.0.1
+2025-11-07-02:31:09.415 [takserver-scheduled-7] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:161
+2025-11-07-02:31:26.314 [epollEventLoopGroup-4-20] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:162 source=172.19.0.1
+2025-11-07-02:31:26.337 [takserver-scheduled-3] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:162
+2025-11-07-02:33:44.344 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 159 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-02:33:44.346 [main] INFO tak.server.ServerConfiguration - The following 2 profiles are active: "plugins", "messaging"
+2025-11-07-02:33:52.887 [main] INFO tak.server.util.DataSourceUtils - 24 CPU cores detected. Postgres server maximum allowed connections value is 100. The computed connection pool size is: 49
+2025-11-07-02:33:54.229 [main] WARN org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-07-02:34:04.610 [services-deployment-worker-#112] WARN com.bbn.marti.service.SSLConfig - TLS enabled, but no certificate revocation lists, and OSCP is not enabled in Core Config!
+2025-11-07-02:34:06.743 [main] ERROR tak.server.util.JAXBUtils - UserAuthenticationFile.xml not found.
+2025-11-07-02:34:16.380 [main] INFO c.b.m.sync.JDBCEnterpriseSyncService - file cache explicity disabled.
+2025-11-07-02:34:16.389 [main] INFO c.b.marti.service.SubmissionService - input class type: Input
+2025-11-07-02:34:16.389 [main] INFO c.b.marti.service.SubmissionService - Configuring network input com.bbn.marti.config.Input stdssl: 
+2025-11-07-02:34:16.475 [main] WARN com.bbn.marti.service.SSLConfig - TLS enabled, but no certificate revocation lists, and OSCP is not enabled in Core Config!
+2025-11-07-02:34:17.057 [Thread-5] INFO c.b.marti.nio.netty.NioNettyBuilder - Successfully Started Netty Server for TlsServerInitializer on Port 8089 with watermark WriteBufferWaterMark(low: 49152, high: 98304)
+2025-11-07-02:34:17.913 [main] INFO t.server.federation.FederationServer - Federation disabled in config. Not starting V2 federation server.
+2025-11-07-02:34:17.926 [main] INFO com.bbn.marti.nio.server.NioServer - max memory (bytes): 2699034624
+2025-11-07-02:34:17.926 [main] INFO com.bbn.marti.nio.server.NioServer - Server started
+2025-11-07-02:34:17.992 [main] INFO t.server.cache.DatafeedCacheHelper - Done initializing PluginDatafeedCacheHelper with buffer cache value: 300 seconds
+2025-11-07-02:34:18.015 [main] INFO com.bbn.marti.util.VersionBean - TAK Server version 5.2-RELEASE-16-main
+2025-11-07-02:34:18.015 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - file cache explicity disabled.
+2025-11-07-02:34:18.016 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - Initialzed EnterpriseSyncCacheHelper with file cache TTL 120 seconds. Implementation: caffeine
+2025-11-07-02:34:18.022 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 33.432 seconds (process running for 52.623)
+2025-11-07-02:34:18.049 [main] INFO tak.server.ServerConfiguration - Started TAK Server messaging Microservice.
+2025-11-07-02:34:21.084 [epollEventLoopGroup-4-1] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 47004; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:34:32.469 [svc-#142] INFO c.bbn.marti.groups.FileAuthenticator - adding new file-based user WinTAK-Paul
+2025-11-07-02:34:34.647 [epollEventLoopGroup-4-2] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 47196; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:34:51.574 [epollEventLoopGroup-4-3] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 48446; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:35:05.164 [epollEventLoopGroup-4-4] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 57952; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:35:22.109 [epollEventLoopGroup-4-5] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 35790; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:35:35.709 [epollEventLoopGroup-4-7] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 53484; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:35:52.649 [epollEventLoopGroup-4-8] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 36360; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:36:06.233 [epollEventLoopGroup-4-9] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 49768; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:36:19.826 [epollEventLoopGroup-4-10] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 59586; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:36:36.746 [epollEventLoopGroup-4-11] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 51980; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:36:50.348 [epollEventLoopGroup-4-12] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 53034; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:37:07.274 [epollEventLoopGroup-4-13] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 39784; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:37:20.866 [epollEventLoopGroup-4-14] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 53310; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:37:37.794 [epollEventLoopGroup-4-15] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 33502; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:37:51.386 [epollEventLoopGroup-4-16] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 49682; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:38:08.304 [epollEventLoopGroup-4-17] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 51892; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:38:21.901 [epollEventLoopGroup-4-18] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 52514; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:38:38.829 [epollEventLoopGroup-4-19] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 58514; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:38:44.969 [takserver-scheduled-5] WARN com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@11ee8e81 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-07-02:41:06.675 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 59 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-02:41:06.677 [main] INFO tak.server.ServerConfiguration - The following 2 profiles are active: "plugins", "messaging"
+2025-11-07-02:41:15.820 [main] INFO tak.server.util.DataSourceUtils - 24 CPU cores detected. Postgres server maximum allowed connections value is 100. The computed connection pool size is: 49
+2025-11-07-02:41:17.508 [main] WARN org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-07-02:41:31.911 [services-deployment-worker-#109] WARN com.bbn.marti.service.SSLConfig - TLS enabled, but no certificate revocation lists, and OSCP is not enabled in Core Config!
+2025-11-07-02:41:34.192 [main] ERROR tak.server.util.JAXBUtils - UserAuthenticationFile.xml not found.
+2025-11-07-02:41:41.304 [main] INFO c.b.m.sync.JDBCEnterpriseSyncService - file cache explicity disabled.
+2025-11-07-02:41:41.311 [main] INFO c.b.marti.service.SubmissionService - input class type: Input
+2025-11-07-02:41:41.311 [main] INFO c.b.marti.service.SubmissionService - Configuring network input com.bbn.marti.config.Input stdssl: 
+2025-11-07-02:41:41.382 [main] WARN com.bbn.marti.service.SSLConfig - TLS enabled, but no certificate revocation lists, and OSCP is not enabled in Core Config!
+2025-11-07-02:41:41.962 [Thread-5] INFO c.b.marti.nio.netty.NioNettyBuilder - Successfully Started Netty Server for TlsServerInitializer on Port 8089 with watermark WriteBufferWaterMark(low: 49152, high: 98304)
+2025-11-07-02:41:42.982 [main] INFO t.server.federation.FederationServer - Federation disabled in config. Not starting V2 federation server.
+2025-11-07-02:41:42.999 [main] INFO com.bbn.marti.nio.server.NioServer - max memory (bytes): 2699034624
+2025-11-07-02:41:42.999 [main] INFO com.bbn.marti.nio.server.NioServer - Server started
+2025-11-07-02:41:43.070 [main] INFO t.server.cache.DatafeedCacheHelper - Done initializing PluginDatafeedCacheHelper with buffer cache value: 300 seconds
+2025-11-07-02:41:43.099 [main] INFO com.bbn.marti.util.VersionBean - TAK Server version 5.2-RELEASE-16-main
+2025-11-07-02:41:43.099 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - file cache explicity disabled.
+2025-11-07-02:41:43.099 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - Initialzed EnterpriseSyncCacheHelper with file cache TTL 120 seconds. Implementation: caffeine
+2025-11-07-02:41:43.100 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 36.288 seconds (process running for 55.909)
+2025-11-07-02:41:43.121 [main] INFO tak.server.ServerConfiguration - Started TAK Server messaging Microservice.
+2025-11-07-02:41:49.069 [epollEventLoopGroup-4-1] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 42000; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:41:58.026 [svc-#138] INFO c.bbn.marti.groups.FileAuthenticator - adding new file-based user WinTAK-Paul
+2025-11-07-02:42:50.487 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 62 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-02:42:50.489 [main] INFO tak.server.ServerConfiguration - The following 2 profiles are active: "plugins", "messaging"
+2025-11-07-02:42:59.359 [main] INFO tak.server.util.DataSourceUtils - 24 CPU cores detected. Postgres server maximum allowed connections value is 100. The computed connection pool size is: 49
+2025-11-07-02:43:00.749 [main] WARN org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-07-02:43:15.964 [services-deployment-worker-#109] WARN com.bbn.marti.service.SSLConfig - TLS enabled, but no certificate revocation lists, and OSCP is not enabled in Core Config!
+2025-11-07-02:43:18.384 [main] ERROR tak.server.util.JAXBUtils - UserAuthenticationFile.xml not found.
+2025-11-07-02:43:25.161 [main] INFO c.b.m.sync.JDBCEnterpriseSyncService - file cache explicity disabled.
+2025-11-07-02:43:25.167 [main] INFO c.b.marti.service.SubmissionService - input class type: Input
+2025-11-07-02:43:25.167 [main] INFO c.b.marti.service.SubmissionService - Configuring network input com.bbn.marti.config.Input stdssl: 
+2025-11-07-02:43:25.240 [main] WARN com.bbn.marti.service.SSLConfig - TLS enabled, but no certificate revocation lists, and OSCP is not enabled in Core Config!
+2025-11-07-02:43:25.823 [Thread-5] INFO c.b.marti.nio.netty.NioNettyBuilder - Successfully Started Netty Server for TlsServerInitializer on Port 8089 with watermark WriteBufferWaterMark(low: 49152, high: 98304)
+2025-11-07-02:43:26.918 [main] INFO t.server.federation.FederationServer - Federation disabled in config. Not starting V2 federation server.
+2025-11-07-02:43:26.929 [main] INFO com.bbn.marti.nio.server.NioServer - max memory (bytes): 2699034624
+2025-11-07-02:43:26.929 [main] INFO com.bbn.marti.nio.server.NioServer - Server started
+2025-11-07-02:43:27.014 [main] INFO t.server.cache.DatafeedCacheHelper - Done initializing PluginDatafeedCacheHelper with buffer cache value: 300 seconds
+2025-11-07-02:43:27.042 [main] INFO com.bbn.marti.util.VersionBean - TAK Server version 5.2-RELEASE-16-main
+2025-11-07-02:43:27.043 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - file cache explicity disabled.
+2025-11-07-02:43:27.043 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - Initialzed EnterpriseSyncCacheHelper with file cache TTL 120 seconds. Implementation: caffeine
+2025-11-07-02:43:27.046 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 35.925 seconds (process running for 53.983)
+2025-11-07-02:43:27.071 [main] INFO tak.server.ServerConfiguration - Started TAK Server messaging Microservice.
+2025-11-07-02:43:39.154 [epollEventLoopGroup-4-1] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 44414; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:43:44.020 [svc-#143] INFO c.bbn.marti.groups.FileAuthenticator - adding new file-based user WinTAK-Paul
+2025-11-07-02:43:52.710 [epollEventLoopGroup-4-2] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 36702; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:44:06.302 [epollEventLoopGroup-4-3] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 34728; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:44:23.246 [epollEventLoopGroup-4-4] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 45350; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:44:36.835 [epollEventLoopGroup-4-5] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 46260; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:44:53.757 [epollEventLoopGroup-4-6] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 58922; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:45:07.354 [epollEventLoopGroup-4-7] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 47896; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:45:24.298 [epollEventLoopGroup-4-8] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 41380; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:45:37.898 [epollEventLoopGroup-4-9] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 58938; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:45:54.825 [epollEventLoopGroup-4-10] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 35290; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:46:08.442 [epollEventLoopGroup-4-12] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 39034; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:46:25.371 [epollEventLoopGroup-4-13] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 40634; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:46:38.960 [epollEventLoopGroup-4-14] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 46222; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:46:52.553 [epollEventLoopGroup-4-15] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 38266; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:47:09.486 [epollEventLoopGroup-4-16] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 34852; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:47:23.080 [epollEventLoopGroup-4-17] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 37076; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:47:40.006 [epollEventLoopGroup-4-18] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 60820; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:47:53.602 [epollEventLoopGroup-4-19] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 43236; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:48:10.525 [epollEventLoopGroup-4-20] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 56936; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:48:24.123 [epollEventLoopGroup-4-21] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 39178; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:48:41.050 [epollEventLoopGroup-4-22] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 42244; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:48:54.646 [epollEventLoopGroup-4-23] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 52232; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:49:11.576 [epollEventLoopGroup-4-24] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 37026; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:49:25.164 [epollEventLoopGroup-4-25] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 48312; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:49:38.751 [epollEventLoopGroup-4-26] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 37282; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:49:55.685 [epollEventLoopGroup-4-27] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 45182; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:50:09.288 [epollEventLoopGroup-4-28] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 51328; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:50:26.225 [epollEventLoopGroup-4-29] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 45350; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:50:39.821 [epollEventLoopGroup-4-30] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 43054; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:50:56.751 [epollEventLoopGroup-4-31] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 59704; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:51:10.342 [epollEventLoopGroup-4-32] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 58372; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:51:27.267 [epollEventLoopGroup-4-33] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 36932; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:51:40.851 [epollEventLoopGroup-4-34] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 55436; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:51:57.771 [epollEventLoopGroup-4-35] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 54010; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:52:11.363 [epollEventLoopGroup-4-36] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 34886; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:52:24.972 [epollEventLoopGroup-4-37] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 59502; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:52:41.914 [epollEventLoopGroup-4-38] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 50396; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:52:55.514 [epollEventLoopGroup-4-39] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 45522; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:53:12.443 [epollEventLoopGroup-4-40] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 60756; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:53:26.032 [epollEventLoopGroup-4-41] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 47598; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:53:42.952 [epollEventLoopGroup-4-42] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 47024; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:53:56.543 [epollEventLoopGroup-4-43] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 45866; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:54:13.471 [epollEventLoopGroup-4-44] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 54612; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:54:27.065 [epollEventLoopGroup-4-45] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 59660; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:54:40.667 [epollEventLoopGroup-4-46] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 60634; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:54:57.584 [epollEventLoopGroup-4-47] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 58336; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:55:11.165 [epollEventLoopGroup-4-48] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 41122; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:55:28.074 [epollEventLoopGroup-4-1] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 43272; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:55:41.652 [epollEventLoopGroup-4-2] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 53172; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:55:58.554 [epollEventLoopGroup-4-3] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 49582; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:56:12.132 [epollEventLoopGroup-4-4] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 58762; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:56:29.046 [epollEventLoopGroup-4-5] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 48488; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:56:42.623 [epollEventLoopGroup-4-6] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 34496; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:56:59.534 [epollEventLoopGroup-4-7] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 42080; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:57:13.110 [epollEventLoopGroup-4-8] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 49656; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:57:26.682 [epollEventLoopGroup-4-9] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 33458; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:57:43.602 [epollEventLoopGroup-4-10] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 44502; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:57:57.191 [epollEventLoopGroup-4-11] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 60644; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:58:14.104 [epollEventLoopGroup-4-12] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 49112; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:58:27.673 [epollEventLoopGroup-4-13] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 44466; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:58:44.588 [epollEventLoopGroup-4-14] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 44960; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:58:58.169 [epollEventLoopGroup-4-15] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 40734; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:59:15.084 [epollEventLoopGroup-4-16] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 39720; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:59:28.651 [epollEventLoopGroup-4-17] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 36398; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:59:45.553 [epollEventLoopGroup-4-18] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 58136; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-02:59:59.131 [epollEventLoopGroup-4-19] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 47210; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-03:00:12.704 [epollEventLoopGroup-4-20] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 56230; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-03:00:29.619 [epollEventLoopGroup-4-21] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: javax.net.ssl.SSLHandshakeException: General OpenSslEngine problem. Additional info: Remote address: 172.19.0.1; Remote port: 42072; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-03:00:37.129 [epollEventLoopGroup-4-26] ERROR c.bbn.marti.remote.util.RemoteUtil - empty bit position in group - skipping: Group [id=__ANON__, direction=IN, created=Fri Nov 07 03:00:35 UTC 2025, size: 1, assigned bit position: null]
+2025-11-07-03:00:37.471 [epollEventLoopGroup-4-25] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:1 source=172.19.0.1
+2025-11-07-03:00:37.471 [epollEventLoopGroup-4-26] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:2 source=172.19.0.1
+2025-11-07-03:00:37.581 [epollEventLoopGroup-4-27] INFO c.b.m.s.DistributedSubscriptionManager - Added Subscription: id=tls:3 source=172.19.0.1
+2025-11-07-03:00:37.949 [takserver-0] INFO c.b.m.s.DistributedSubscriptionManager - Set client for subscription: tls:1 to USAROME (S-1-12-1-1410559651-1202115966-4162639276-243694147) source=172.19.0.1:42108
+2025-11-07-03:00:38.098 [takserver-scheduled-11] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:2
+2025-11-07-03:00:38.196 [takserver-scheduled-8] INFO c.b.m.s.DistributedSubscriptionManager - Removed Subscription: tls:3
+2025-11-07-05:43:08.836 [epollEventLoopGroup-4-28] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record. Additional info: Remote address: 172.19.0.1; Remote port: 59994; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-05:43:09.937 [epollEventLoopGroup-4-29] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record. Additional info: Remote address: 172.19.0.1; Remote port: 60006; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-05:43:09.940 [epollEventLoopGroup-4-30] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record. Additional info: Remote address: 172.19.0.1; Remote port: 60014; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-05:43:09.947 [epollEventLoopGroup-4-31] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record. Additional info: Remote address: 172.19.0.1; Remote port: 60016; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-05:43:11.030 [epollEventLoopGroup-4-32] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record. Additional info: Remote address: 172.19.0.1; Remote port: 60030; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-05:43:15.656 [epollEventLoopGroup-4-33] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record. Additional info: Remote address: 172.19.0.1; Remote port: 60046; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-05:43:15.664 [epollEventLoopGroup-4-34] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record. Additional info: Remote address: 172.19.0.1; Remote port: 42580; Local port: 8089; Certificate error: peer not verified; 
+2025-11-07-05:43:46.057 [epollEventLoopGroup-4-36] ERROR c.b.m.n.n.h.NioNettyHandlerBase - NioNettyServerHandler error. Cause: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record. Additional info: Remote address: 172.19.0.1; Remote port: 58176; Local port: 8089; Certificate error: peer not verified; 

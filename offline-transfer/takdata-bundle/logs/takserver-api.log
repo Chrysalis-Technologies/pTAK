@@ -1,0 +1,72 @@
+2025-11-07-01:32:18.263 [takserver-scheduled-15] WARN com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@23c8b2b5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-11-07-01:50:05.573 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 61 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-01:50:05.578 [main] INFO tak.server.ServerConfiguration - The following 2 profiles are active: "plugins", "api"
+2025-11-07-01:50:17.404 [main] INFO tak.server.ServerConfiguration - Tomcat base directory: /opt/tak
+2025-11-07-01:50:19.008 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8443 (https) 8444 (https) 8446 (https)
+2025-11-07-01:50:21.734 [main] INFO tak.server.util.DataSourceUtils - 24 CPU cores detected. Postgres server maximum allowed connections value is 100. The computed connection pool size is: 49
+2025-11-07-01:50:32.313 [main] WARN org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-07-01:50:57.789 [main] INFO c.b.m.s.service.MissionCacheWarmer - initializing getAllMission cache
+2025-11-07-01:50:58.138 [main] INFO c.b.m.s.service.MissionCacheWarmer - getAllMission cache warmed - took 0 seconds
+2025-11-07-01:50:59.906 [main] INFO com.bbn.marti.sync.UploadServlet - Enterprise Sync upload limit is 400 MB
+2025-11-07-01:50:59.955 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8443 (https) 8444 (https) 8446 (https) with context path ''
+2025-11-07-01:51:00.012 [main] INFO c.b.m.sync.JDBCEnterpriseSyncService - file cache explicity disabled.
+2025-11-07-01:51:00.169 [main] INFO com.bbn.marti.util.VersionBean - TAK Server version 5.2-RELEASE-16-main
+2025-11-07-01:51:00.170 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - file cache explicity disabled.
+2025-11-07-01:51:00.170 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - Initialzed EnterpriseSyncCacheHelper with file cache TTL 120 seconds. Implementation: caffeine
+2025-11-07-01:51:00.172 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 51.221 seconds (process running for 69.855)
+2025-11-07-01:51:00.192 [main] INFO tak.server.ServerConfiguration - Started TAK Server api Microservice.
+2025-11-07-01:54:05.909 [https-jsse-nio-8443-exec-3] ERROR tak.server.util.ErrorController - 404 error returned from GET /Marti/api/server/version, 
+2025-11-07-02:25:37.755 [https-jsse-nio-8443-exec-6] ERROR tak.server.util.ErrorController - 404 error returned from GET /Marti/api/server/version, 
+2025-11-07-02:33:44.199 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 160 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-02:33:44.202 [main] INFO tak.server.ServerConfiguration - The following 2 profiles are active: "plugins", "api"
+2025-11-07-02:33:52.493 [main] INFO tak.server.ServerConfiguration - Tomcat base directory: /opt/tak
+2025-11-07-02:33:53.596 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8443 (https) 8444 (https) 8446 (https)
+2025-11-07-02:33:56.166 [main] INFO tak.server.util.DataSourceUtils - 24 CPU cores detected. Postgres server maximum allowed connections value is 100. The computed connection pool size is: 49
+2025-11-07-02:34:06.483 [main] WARN org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-07-02:34:30.112 [main] INFO c.b.m.s.service.MissionCacheWarmer - initializing getAllMission cache
+2025-11-07-02:34:30.473 [main] INFO c.b.m.s.service.MissionCacheWarmer - getAllMission cache warmed - took 0 seconds
+2025-11-07-02:34:32.242 [main] INFO com.bbn.marti.sync.UploadServlet - Enterprise Sync upload limit is 400 MB
+2025-11-07-02:34:32.290 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8443 (https) 8444 (https) 8446 (https) with context path ''
+2025-11-07-02:34:32.350 [main] INFO c.b.m.sync.JDBCEnterpriseSyncService - file cache explicity disabled.
+2025-11-07-02:34:32.452 [main] INFO com.bbn.marti.util.VersionBean - TAK Server version 5.2-RELEASE-16-main
+2025-11-07-02:34:32.452 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - file cache explicity disabled.
+2025-11-07-02:34:32.453 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - Initialzed EnterpriseSyncCacheHelper with file cache TTL 120 seconds. Implementation: caffeine
+2025-11-07-02:34:32.454 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 47.948 seconds (process running for 67.055)
+2025-11-07-02:34:32.479 [main] INFO tak.server.ServerConfiguration - Started TAK Server api Microservice.
+2025-11-07-02:34:32.507 [pub-#206] INFO c.bbn.marti.groups.FileAuthenticator - adding new file-based user WinTAK-Paul
+2025-11-07-02:41:06.692 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 60 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-02:41:06.693 [main] INFO tak.server.ServerConfiguration - The following 2 profiles are active: "plugins", "api"
+2025-11-07-02:41:15.497 [main] INFO tak.server.ServerConfiguration - Tomcat base directory: /opt/tak
+2025-11-07-02:41:16.561 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8443 (https) 8444 (https) 8446 (https)
+2025-11-07-02:41:19.436 [main] INFO tak.server.util.DataSourceUtils - 24 CPU cores detected. Postgres server maximum allowed connections value is 100. The computed connection pool size is: 49
+2025-11-07-02:41:33.643 [main] WARN org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-07-02:41:57.661 [main] INFO c.b.m.s.service.MissionCacheWarmer - initializing getAllMission cache
+2025-11-07-02:41:58.033 [main] INFO c.b.m.s.service.MissionCacheWarmer - getAllMission cache warmed - took 0 seconds
+2025-11-07-02:41:59.884 [main] INFO com.bbn.marti.sync.UploadServlet - Enterprise Sync upload limit is 400 MB
+2025-11-07-02:41:59.919 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8443 (https) 8444 (https) 8446 (https) with context path ''
+2025-11-07-02:41:59.977 [main] INFO c.b.m.sync.JDBCEnterpriseSyncService - file cache explicity disabled.
+2025-11-07-02:42:00.104 [main] INFO com.bbn.marti.util.VersionBean - TAK Server version 5.2-RELEASE-16-main
+2025-11-07-02:42:00.104 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - file cache explicity disabled.
+2025-11-07-02:42:00.105 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - Initialzed EnterpriseSyncCacheHelper with file cache TTL 120 seconds. Implementation: caffeine
+2025-11-07-02:42:00.107 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 49.962 seconds (process running for 69.581)
+2025-11-07-02:42:00.129 [main] INFO tak.server.ServerConfiguration - Started TAK Server api Microservice.
+2025-11-07-02:42:50.377 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 63 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-02:42:50.379 [main] INFO tak.server.ServerConfiguration - The following 2 profiles are active: "plugins", "api"
+2025-11-07-02:42:58.699 [main] INFO tak.server.ServerConfiguration - Tomcat base directory: /opt/tak
+2025-11-07-02:42:59.876 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8443 (https) 8444 (https) 8446 (https)
+2025-11-07-02:43:06.231 [main] INFO tak.server.util.DataSourceUtils - 24 CPU cores detected. Postgres server maximum allowed connections value is 100. The computed connection pool size is: 49
+2025-11-07-02:43:17.691 [main] WARN org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-07-02:43:41.821 [main] INFO c.b.m.s.service.MissionCacheWarmer - initializing getAllMission cache
+2025-11-07-02:43:42.166 [main] INFO c.b.m.s.service.MissionCacheWarmer - getAllMission cache warmed - took 0 seconds
+2025-11-07-02:43:43.727 [main] INFO com.bbn.marti.sync.UploadServlet - Enterprise Sync upload limit is 400 MB
+2025-11-07-02:43:43.765 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8443 (https) 8444 (https) 8446 (https) with context path ''
+2025-11-07-02:43:43.809 [main] INFO c.b.m.sync.JDBCEnterpriseSyncService - file cache explicity disabled.
+2025-11-07-02:43:43.921 [main] INFO com.bbn.marti.util.VersionBean - TAK Server version 5.2-RELEASE-16-main
+2025-11-07-02:43:43.922 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - file cache explicity disabled.
+2025-11-07-02:43:43.922 [main] INFO c.b.m.sync.EnterpriseSyncCacheHelper - Initialzed EnterpriseSyncCacheHelper with file cache TTL 120 seconds. Implementation: caffeine
+2025-11-07-02:43:43.924 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 49.505 seconds (process running for 67.527)
+2025-11-07-02:43:43.947 [main] INFO tak.server.ServerConfiguration - Started TAK Server api Microservice.
+2025-11-07-02:43:44.065 [pub-#207] INFO c.bbn.marti.groups.FileAuthenticator - adding new file-based user WinTAK-Paul
+2025-11-07-02:44:39.694 [https-jsse-nio-8443-exec-6] ERROR tak.server.util.ErrorController - 404 error returned from GET /Marti/api/server/version, 
+2025-11-07-05:44:50.505 [https-jsse-nio-8443-exec-7] ERROR tak.server.util.ErrorController - 404 error returned from GET /favicon.ico, 
+2025-11-07-05:45:10.122 [https-jsse-nio-8443-exec-10] ERROR tak.server.util.ErrorController - 404 error returned from GET /favicon.ico, 

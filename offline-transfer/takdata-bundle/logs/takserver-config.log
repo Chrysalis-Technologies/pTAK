@@ -1,0 +1,16 @@
+2025-11-07-01:49:53.273 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 59 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-01:49:53.276 [main] INFO tak.server.ServerConfiguration - The following 1 profile is active: "config"
+2025-11-07-01:50:03.429 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 12.658 seconds (process running for 19.78)
+2025-11-07-01:50:03.442 [main] INFO tak.server.ServerConfiguration - Started TAK Server config Microservice.
+2025-11-07-02:33:28.664 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 158 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-02:33:28.668 [main] INFO tak.server.ServerConfiguration - The following 1 profile is active: "config"
+2025-11-07-02:33:42.116 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 12.592 seconds (process running for 20.051)
+2025-11-07-02:33:42.130 [main] INFO tak.server.ServerConfiguration - Started TAK Server config Microservice.
+2025-11-07-02:40:53.514 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 58 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-02:40:53.518 [main] INFO tak.server.ServerConfiguration - The following 1 profile is active: "config"
+2025-11-07-02:41:04.620 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 13.783 seconds (process running for 20.763)
+2025-11-07-02:41:04.639 [main] INFO tak.server.ServerConfiguration - Started TAK Server config Microservice.
+2025-11-07-02:42:38.597 [main] INFO tak.server.ServerConfiguration - Starting ServerConfiguration v5.2-RELEASE-16 using Java 17.0.17 with PID 61 (/opt/tak/takserver.war started by root in /opt/tak)
+2025-11-07-02:42:38.599 [main] INFO tak.server.ServerConfiguration - The following 1 profile is active: "config"
+2025-11-07-02:42:48.758 [main] INFO tak.server.ServerConfiguration - Started ServerConfiguration in 12.643 seconds (process running for 19.029)
+2025-11-07-02:42:48.771 [main] INFO tak.server.ServerConfiguration - Started TAK Server config Microservice.
