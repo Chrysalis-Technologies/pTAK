@@ -1,0 +1,20 @@
+# Example Meshtastic TAK bridge configuration
+
+[tak]
+# Hostname published in the TAK certificate (see hosts entry on the bridge)
+host = takserver
+port = 8089
+
+# Where Meshtastic should listen for inbound COT (optional)
+cot_port = 8999
+
+# TLS material copied from official-tak/takdata/certs/files
+ca_cert = /opt/meshtastic/certs/ca.pem
+client_cert = /opt/meshtastic/certs/MeshBridge.pem
+client_key = /opt/meshtastic/certs/MeshBridge.key
+
+# Optional heartbeat (in seconds)
+heartbeat_period = 30
+
+# Optional: send Meshtastic telemetry back to TAK
+send_position_updates = true
