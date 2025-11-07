@@ -8,6 +8,16 @@ Config.xml
 ~Config.xml
 WinTAK_SUM.pdf
 temp/
+backups/
+takserver.log
+official-tak/offline-transfer/*
+!official-tak/offline-transfer/README.md
+official-tak/takdata/*
+!official-tak/takdata/README.md
+official-tak/takserver-docker-5.2-RELEASE-16/takdata/*
+!official-tak/takserver-docker-5.2-RELEASE-16/takdata/README.md
+official-tak/takserver-docker-5.2-RELEASE-16/tak/certs/files/*
+!official-tak/takserver-docker-5.2-RELEASE-16/tak/certs/files/README.md
 official-tak/takserver-docker-5.2-RELEASE-16/tak/takserver.war
 official-tak/takserver-docker-5.2-RELEASE-16/tak/takserver-pm.jar
 official-tak/takserver-docker-5.2-RELEASE-16/tak/takserver-retention.jar

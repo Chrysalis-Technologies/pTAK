@@ -101,7 +101,7 @@ if [[ ! -f "${TAKIGNITECONFIG}" ]];then
 	echo Copying initial TAKIgniteConfig.xml
 	if [[ -f "${TR}/TAKIgniteConfig.xml" ]];then
 		cp ${TR}/TAKIgniteConfig.xml ${TAKIGNITECONFIG}
-		mv ${TR}/TAKIgniteConfig.xml ${TR}/CoreConfig.xml.orig
+		mv ${TR}/TAKIgniteConfig.xml ${TR}/TAKIgniteConfig.xml.orig
 	else
 		cp ${TR}/TAKIgniteConfig.example.xml ${TAKIGNITECONFIG}
 	fi
@@ -109,7 +109,13 @@ else
 	echo Using existing TAKIgniteConfig.xml.
 fi
 
-# Symlink the log directory
+# Ensure runtime copies do not collide with defaults in /opt/tak
+rm -f ${TR}/TAKIgniteConfig.xml ${TR}/CoreConfig.xml
+
+# Symlink the log directory (clear any previous link)
+if [[ -L "${TR}/logs" || -d "${TR}/logs" ]]; then
+	rm -rf "${TR}/logs"
+fi
 ln -s "${TR}/data/logs" "${TR}/logs"
 
 cd ${CR}
