@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "redhat.vscode-yaml",
+    "redhat.ansible",
+    "ms-python.python",
+    "timonwong.shellcheck"
+  ]
+}

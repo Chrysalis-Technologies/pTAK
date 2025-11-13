@@ -21,3 +21,32 @@ official-tak/takserver-docker-5.2-RELEASE-16/tak/certs/files/*
 official-tak/takserver-docker-5.2-RELEASE-16/tak/takserver.war
 official-tak/takserver-docker-5.2-RELEASE-16/tak/takserver-pm.jar
 official-tak/takserver-docker-5.2-RELEASE-16/tak/takserver-retention.jar
+# Router automation config (user-specific)
+router/config/router-config.local.yml
+router/config/*.local.yml
+
+# Python / virtualenv cruft
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment + tooling noise
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.vscode/*.db
+.vscode/*.log
+.vscode/*.cache
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+ehthumbs.db
+Desktop.ini
+
+# Ansible artifacts
+*.retry

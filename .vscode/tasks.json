@@ -2,29 +2,30 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "fts:compose:up",
+      "label": "ansible:syntax-check",
       "type": "shell",
-      "command": "docker compose up -d"
+      "command": "ansible-playbook --syntax-check router/ansible/site.yml -i router/ansible/inventory.ini -e @router/config/router-config.local.yml",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
     },
     {
-      "label": "fts:compose:down",
+      "label": "ansible:apply-router",
       "type": "shell",
-      "command": "docker compose down"
-    },
-    {
-      "label": "fts:compose:logs",
-      "type": "shell",
-      "command": "docker compose logs -f freetakserver"
-    },
-    {
-      "label": "fts:gen-certs",
-      "type": "shell",
-      "command": "pwsh ./scripts/gen-fts-certs.ps1 -ClientCommonName WinTAK-Paul"
-    },
-    {
-      "label": "fts:test",
-      "type": "shell",
-      "command": "pwsh ./scripts/test-fts.ps1"
+      "command": "ansible-playbook -i router/ansible/inventory.ini router/ansible/site.yml -e @router/config/router-config.local.yml",
+      "problemMatcher": [],
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
     }
   ]
 }

@@ -1,32 +1,39 @@
-# WinTAK Workspace
+# DIY x86 Router Automation
 
-This repository collects local tooling and configuration used alongside WinTAK and related integrations.
+This repository captures a reproducible configuration pipeline for a small x86-based router appliance. It assumes you have already installed a stock Debian or Ubuntu image onto the hardware (typically via a USB installer) and now want to apply consistent, version-controlled networking, firewall, and DHCP settings.
 
-## Run TAK locally
+The project does not build custom firmware images. Instead, it uses standard shell tooling and Ansible to configure an existing installation over SSH so you can iterate quickly, keep changes reviewable, and recover from mistakes by re-running the playbook.
 
-Prerequisites:
-- Install Docker Desktop and ensure it is set to Linux container mode.
-- (Windows) Enable and configure WSL 2 for best performance.
+## Hardware Overview
+See `docs/hardware-bom.md` for the recommended router chassis, storage, cabling, and optional accessories that mirror the “fanless 4×2.5 GbE” homelab builds.
 
-Start and stop the stack:
-- In VS Code, open the Command Palette and run `Tasks: Run Task`, then choose `fts:compose:up` or `fts:compose:down`.
-- Alternatively, run the corresponding tasks from the status bar task runner if available.
+## Quick Start
+1. Clone this repository on your management laptop or WSL2 environment.
+2. Copy `router/config/router-config.example.yml` to `router/config/router-config.local.yml` and edit it with your WAN/LAN interface names, addressing, and DHCP range.
+3. Confirm you can SSH into the router as the configured user (key-based auth is recommended).
+4. Run the Ansible playbook:
+   ```bash
+   ansible-playbook -i router/ansible/inventory.ini router/ansible/site.yml \
+     -e @router/config/router-config.local.yml
+   ```
+   The playbook is idempotent—re-running it safely reconciles the router with the declared state.
 
- Smoke-test the FreeTAKServer API:
-- Run the `fts:test` task, which invokes `scripts/test-fts.ps1` and verifies critical ports.
-- The FreeTAKServer web service is available at `http://localhost:8080/` when the stack is running.
+## Local Dev Setup
+1. Create and activate a Python virtual environment (WSL2 example):
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+2. Export any required Ansible environment variables (e.g., `ANSIBLE_HOST_KEY_CHECKING=False` for first-run lab devices).
+3. Update `router/config/router-config.local.yml` with your router host/IP, SSH user, and networking values.
+4. Apply the configuration using the `ansible-playbook` command shown above whenever you need to reconcile the router. Use `ansible-playbook --syntax-check` or the provided VS Code task before deploying changes.
 
-Connect WinTAK:
-- Add a TAK server connection pointing to `127.0.0.1:8087` (unencrypted) to validate connectivity.
-- After configuring certificates, switch the client to the TLS endpoints on ports `8089` or `8443`.
+## What This Router Configures
+- WAN + LAN IP addressing via Netplan, including DHCP on WAN and static LAN gateway settings.
+- Firewalling and NAT using nftables, with IPv4 forwarding enabled and the LAN interface masqueraded out the WAN uplink.
+- A dnsmasq-based DHCP/DNS service advertising the LAN gateway and forwarding queries to user-defined upstream DNS servers.
+- Helpful bootstrap + verification scripts under `router/scripts/` along with an inventory and playbook meant to be run from your laptop.
 
-## Run TAK locally with TLS
-
-- Prerequisites: Docker Desktop (Linux containers), OpenSSL available in `PATH`, and PowerShell 7 or later.
-- Start services with the **fts:compose:up** task.
-- Generate CA, server, and client certificates with **fts:gen-certs** (writes `fts-certs\ca.crt`, `server.crt/server.key`, and `WinTAK-Paul.p12`).
-- Apply new certificates by running `docker compose restart freetakserver`.
-- Validate connectivity using the **fts:test** task.
-- In WinTAK, import `fts-certs\WinTAK-Paul.p12` (using the export password), trust `fts-certs\ca.crt`, and connect to `127.0.0.1:8089` with TLS enabled.
-- Hardening tip: remove ports `8087` and `8080` from `docker-compose.yml` and re-run **fts:compose:up** to enforce TLS-only access once clients are migrated.
-- The repo ships patched FreeTAKServer SSL controllers (mounted from `overrides/`) so the container does not require a CRL on start. If you rebuild the container, keep those files in place or regenerate the CRL at `fts-certs\FTS_CRL.json`.
+For a visual overview of how the router sits between your modem/ONT and downstream switches/APs, review `docs/network-topology.md`.

@@ -1,0 +1,29 @@
+# Copy this file to router-config.local.yml and tailor the values to match
+# your hardware, interfaces, and LAN design. Never commit the local file.
+
+# Hostname or IP of the router’s management interface (as seen from your laptop).
+router_host: 192.168.1.1
+
+# SSH user with privilege escalation rights. Root is simplest for lab routers.
+ssh_user: root
+
+# Network interfaces as reported by `ip link` on the router.
+wan_interface: enp1s0
+lan_interface: enp2s0
+
+# LAN addressing.
+lan_cidr: 192.168.10.0/24
+lan_gateway: 192.168.10.1
+
+# DHCP pool handed out by dnsmasq on the LAN interface.
+dhcp_range_start: 192.168.10.50
+dhcp_range_end: 192.168.10.200
+dhcp_lease_time: 24h
+
+# Upstream DNS resolvers dnsmasq should forward to (router relays replies to clients).
+dns_servers:
+  - 1.1.1.1
+  - 9.9.9.9
+
+# Optional domain suffix for DHCP clients (leave blank to skip).
+lan_domain: home.lab
