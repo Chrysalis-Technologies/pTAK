@@ -1,0 +1,20 @@
+services:
+  motion:
+    image: motionproject/motion:latest
+    container_name: motion
+    restart: unless-stopped
+    privileged: true
+    devices:
+      - "/dev/video0:/dev/video0"
+    command: ["motion", "-c", "/etc/motion/motion.conf"]
+    ports:
+      - "8080:8080" # webcontrol
+      - "8081:8081" # live stream
+    environment:
+      - TZ=Etc/UTC
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./motion/config:/etc/motion
+      - ./motion/data:/var/lib/motion
+      - ./motion/logs:/var/log/motion

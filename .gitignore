@@ -10,6 +10,8 @@ WinTAK_SUM.pdf
 temp/
 backups/
 takserver.log
+offline-transfer/*
+!offline-transfer/README.md
 official-tak/offline-transfer/*
 !official-tak/offline-transfer/README.md
 official-tak/takdata/*

@@ -4,6 +4,20 @@ This repository captures a reproducible configuration pipeline for a small x86-b
 
 The project does not build custom firmware images. Instead, it uses standard shell tooling and Ansible to configure an existing installation over SSH so you can iterate quickly, keep changes reviewable, and recover from mistakes by re-running the playbook.
 
+## WinTAK + FreeTAKServer Quick Start
+1. Start the stack: `docker compose up -d`.
+2. Generate certs: `pwsh ./scripts/gen-fts-certs.ps1 -ClientCommonName WinTAK-Paul` (use `-Force` to regenerate).
+3. Ensure PEM copies exist for FTS defaults: `Copy-Item fts-certs/ca.crt fts-certs/ca.pem` and `Copy-Item fts-certs/server.crt fts-certs/server.pem`.
+4. Restart the server to load certs: `docker compose restart freetakserver`.
+5. In WinTAK, use `WinTAK-Paul-NoPwd.p12` for the client identity and `FTS-CA.p12` for the truststore, then connect to `ssl://127.0.0.1:8089`.
+6. Verify ports with `pwsh ./scripts/test-fts.ps1` (8089 must be open).
+
+## TLS Notes
+- `docker-compose.yml` must mount `fts-certs` read/write so FreeTAKServer can create `server.key.unencrypted`.
+- TLS env vars should point at `/certs/ca.pem`, `/certs/server.pem`, `/certs/server.key`, and include `FTS_CERTS_PATH=/certs`.
+- Server cert SANs include `freetakserver`, `localhost`, `127.0.0.1`; use one of these in WinTAK to avoid hostname mismatch.
+- The repo mounts patched SSL controllers from `overrides/` to bypass CRL enforcement unless you manage `fts-certs/FTS_CRL.json`.
+
 ## Hardware Overview
 See `docs/hardware-bom.md` for the recommended router chassis, storage, cabling, and optional accessories that mirror the “fanless 4×2.5 GbE” homelab builds.
 
