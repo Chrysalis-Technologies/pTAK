@@ -1,0 +1,23 @@
+{
+  "v": 1,
+  "id": "01J7VA3Z4VQNRXFK9QQSY4P1MY",
+  "ts": "2026-01-19T20:19:07Z",
+  "site": "farmstead",
+  "class": "ack",
+  "asset": {
+    "id": "light-yard",
+    "kind": "light",
+    "name": "Yard Light"
+  },
+  "src": {
+    "system": "ha",
+    "id": "relay-01"
+  },
+  "data": {
+    "command": "light.on",
+    "status": "ok",
+    "result": {
+      "relay": "on"
+    }
+  }
+}

@@ -18,6 +18,52 @@ The project does not build custom firmware images. Instead, it uses standard she
 - Server cert SANs include `freetakserver`, `localhost`, `127.0.0.1`; use one of these in WinTAK to avoid hostname mismatch.
 - The repo mounts patched SSL controllers from `overrides/` to bypass CRL enforcement unless you manage `fts-certs/FTS_CRL.json`.
 
+## Farm Situational Awareness & Control Stack
+This repo includes a local integration scaffold that links MQTT, TAK, and farmOS with a shared data contract under `contracts/`.
+
+### Quickstart (dev mode)
+1. Generate MQTT TLS certs:
+   - PowerShell: `pwsh ./scripts/gen-mqtt-certs.ps1 -AltNames "mqtt-broker,localhost,127.0.0.1,marzocchi-tech.ewe-mulley.ts.net"`
+   - Bash: `./scripts/gen-mqtt-certs.sh "mqtt-broker,localhost,127.0.0.1,marzocchi-tech.ewe-mulley.ts.net"`
+2. Create MQTT credentials:
+   - PowerShell: `pwsh ./scripts/gen-mqtt-credentials.ps1 -Username farm`
+   - Bash: `./scripts/gen-mqtt-credentials.sh farm`
+3. Copy environment defaults and set `MQTT_USERNAME`/`MQTT_PASSWORD` to match:
+   - PowerShell: `Copy-Item .env.example .env`
+   - Bash: `cp .env.example .env`
+4. Start services: `docker compose up -d`.
+5. Publish demo messages:
+   - PowerShell: `pwsh ./scripts/demo.ps1`
+   - Bash: `./scripts/demo.sh`
+
+Expected results:
+- CoT XML appears in `docker compose logs cot-sink` and files under `data/cot-sink/`.
+- farmOS mock records requests under `data/farmos-mock/`.
+
+### Connect HAOS over Tailscale
+- Copy `mqtt-certs/ca.crt` to HAOS (for example `/config/ssl/mqtt/ca.crt`).
+- Configure the HAOS MQTT integration with the broker MagicDNS name `marzocchi-tech.ewe-mulley.ts.net`, port `8883`, and the credentials in `.env`.
+- Use `integrations/homeassistant/mqtt-package.yaml` for example sensors/automation or configure via UI.
+- Restrict Tailscale ACLs so only HAOS can reach the broker port.
+
+### Configure real TAK
+- Set `TAK_MODE=tak` in `.env`.
+- Point `TAK_HOST`, `TAK_PORT`, and TLS paths (`TAK_TLS_CA`, `TAK_TLS_CERT`, `TAK_TLS_KEY`) to the mounted client cert + key in PEM form.
+- For FreeTAKServer in this repo, place client PEMs under `./fts-certs` (for example `client.pem`/`client.key`) or update the env values.
+
+### Configure real farmOS
+- Set `FARMOS_MODE=farmos` and `FARMOS_BASE_URL` to your farmOS instance.
+- Provide `FARMOS_TOKEN` (or alternate auth) and adjust `FARMOS_LOG_ENDPOINT` if needed.
+
+### Add a new asset or mapping
+- Publish a retained meta message to `farm/<site>/meta/<asset_id>` with `data.tak` and `data.links.farmos_asset_uuid`.
+- Update defaults in `configs/mqtt-cot-bridge.yaml` and `configs/mqtt-farmos-logger.yaml` if you need custom CoT types or log mappings.
+
+### Docs and tests
+- Data contract: `docs/data-contract.md`
+- HA snippets: `integrations/homeassistant/mqtt-package.yaml`
+- QGIS/TAK overlays: `docs/overlays.md`
+- Tests: `pip install -r requirements-dev.txt` then `pytest`
 ## Hardware Overview
 See `docs/hardware-bom.md` for the recommended router chassis, storage, cabling, and optional accessories that mirror the “fanless 4×2.5 GbE” homelab builds.
 

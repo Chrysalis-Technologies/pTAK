@@ -1,6 +1,137 @@
 version: "3.8"
 
 services:
+  mqtt-broker:
+    image: eclipse-mosquitto:2
+    container_name: mqtt-broker
+    restart: unless-stopped
+    ports:
+      - "8883:8883"
+    volumes:
+      - ./configs/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./secrets/mosquitto.passwd:/mosquitto/config/mosquitto.passwd:ro
+      - ./mqtt-certs:/mosquitto/certs:ro
+      - mosquitto-data:/mosquitto/data
+      - mosquitto-log:/mosquitto/log
+
+  cot-sink:
+    build: ./services/cot-sink
+    container_name: cot-sink
+    restart: unless-stopped
+    ports:
+      - "9001:9001/udp"
+    volumes:
+      - ./data/cot-sink:/data
+
+  farmos-mock:
+    build: ./services/farmos-mock
+    container_name: farmos-mock
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/farmos-mock:/data
+
+  mqtt-cot-bridge:
+    build: ./services/mqtt-cot-bridge
+    container_name: mqtt-cot-bridge
+    restart: unless-stopped
+    depends_on:
+      - mqtt-broker
+      - cot-sink
+    environment:
+      SITE: ${SITE:-farmstead}
+      MQTT_HOST: ${MQTT_HOST:-mqtt-broker}
+      MQTT_PORT: ${MQTT_PORT:-8883}
+      MQTT_USERNAME: ${MQTT_USERNAME:-}
+      MQTT_PASSWORD: ${MQTT_PASSWORD:-}
+      MQTT_TLS: ${MQTT_TLS:-true}
+      MQTT_TLS_CA: ${MQTT_TLS_CA:-/mqtt-certs/ca.crt}
+      MQTT_TLS_CERT: ${MQTT_TLS_CERT:-}
+      MQTT_TLS_KEY: ${MQTT_TLS_KEY:-}
+      MQTT_TLS_INSECURE: ${MQTT_TLS_INSECURE:-false}
+      TAK_MODE: ${TAK_MODE:-dev}
+      TAK_HOST: ${TAK_HOST:-freetakserver}
+      TAK_PORT: ${TAK_PORT:-8089}
+      TAK_TLS_CA: ${TAK_TLS_CA:-/certs/ca.pem}
+      TAK_TLS_CERT: ${TAK_TLS_CERT:-/certs/client.pem}
+      TAK_TLS_KEY: ${TAK_TLS_KEY:-/certs/client.key}
+      TAK_TLS_VERIFY: ${TAK_TLS_VERIFY:-true}
+      COT_SINK_HOST: ${COT_SINK_HOST:-cot-sink}
+      COT_SINK_PORT: ${COT_SINK_PORT:-9001}
+      COT_SINK_PROTOCOL: ${COT_SINK_PROTOCOL:-udp}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      BRIDGE_CONFIG: /configs/mqtt-cot-bridge.yaml
+    volumes:
+      - ./configs:/configs:ro
+      - ./contracts:/contracts:ro
+      - ./fts-certs:/certs:ro
+      - ./mqtt-certs:/mqtt-certs:ro
+
+  mqtt-farmos-logger:
+    build: ./services/mqtt-farmos-logger
+    container_name: mqtt-farmos-logger
+    restart: unless-stopped
+    depends_on:
+      - mqtt-broker
+      - farmos-mock
+    environment:
+      SITE: ${SITE:-farmstead}
+      MQTT_HOST: ${MQTT_HOST:-mqtt-broker}
+      MQTT_PORT: ${MQTT_PORT:-8883}
+      MQTT_USERNAME: ${MQTT_USERNAME:-}
+      MQTT_PASSWORD: ${MQTT_PASSWORD:-}
+      MQTT_TLS: ${MQTT_TLS:-true}
+      MQTT_TLS_CA: ${MQTT_TLS_CA:-/mqtt-certs/ca.crt}
+      MQTT_TLS_CERT: ${MQTT_TLS_CERT:-}
+      MQTT_TLS_KEY: ${MQTT_TLS_KEY:-}
+      MQTT_TLS_INSECURE: ${MQTT_TLS_INSECURE:-false}
+      FARMOS_MODE: ${FARMOS_MODE:-mock}
+      FARMOS_BASE_URL: ${FARMOS_BASE_URL:-http://farmos-mock:8000}
+      FARMOS_LOG_ENDPOINT: ${FARMOS_LOG_ENDPOINT:-/jsonapi/log}
+      FARMOS_TOKEN: ${FARMOS_TOKEN:-}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      FARMOS_CONFIG: /configs/mqtt-farmos-logger.yaml
+    volumes:
+      - ./configs:/configs:ro
+      - ./contracts:/contracts:ro
+      - ./data/farmos-logger:/data
+      - ./mqtt-certs:/mqtt-certs:ro
+
+  meshtastic-normalizer:
+    build: ./services/meshtastic-normalizer
+    container_name: meshtastic-normalizer
+    restart: unless-stopped
+    depends_on:
+      - mqtt-broker
+    environment:
+      SITE: ${SITE:-farmstead}
+      MQTT_HOST: ${MQTT_HOST:-mqtt-broker}
+      MQTT_PORT: ${MQTT_PORT:-8883}
+      MQTT_USERNAME: ${MQTT_USERNAME:-}
+      MQTT_PASSWORD: ${MQTT_PASSWORD:-}
+      MQTT_TLS: ${MQTT_TLS:-true}
+      MQTT_TLS_CA: ${MQTT_TLS_CA:-/mqtt-certs/ca.crt}
+      MQTT_TLS_CERT: ${MQTT_TLS_CERT:-}
+      MQTT_TLS_KEY: ${MQTT_TLS_KEY:-}
+      MQTT_TLS_INSECURE: ${MQTT_TLS_INSECURE:-false}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      NORMALIZER_CONFIG: /configs/meshtastic-normalizer.yaml
+    volumes:
+      - ./configs:/configs:ro
+      - ./contracts:/contracts:ro
+      - ./mqtt-certs:/mqtt-certs:ro
+
+  kml-publisher:
+    image: python:3.11-slim
+    container_name: kml-publisher
+    restart: unless-stopped
+    command: ["python", "-m", "http.server", "7070", "--directory", "/overlays"]
+    ports:
+      - "7070:7070"
+    volumes:
+      - ./overlays:/overlays:ro
+
   freetakserver:
     image: ghcr.io/freetakteam/freetakserver:latest
     container_name: freetakserver
@@ -43,3 +174,7 @@ services:
       APPPORT: "5000"
     ports:
       - "5000:5000"
+
+volumes:
+  mosquitto-data:
+  mosquitto-log:

@@ -1,0 +1,44 @@
+# Home Assistant MQTT package example
+# Save under config/packages/farm-mqtt.yaml
+# If you configure MQTT via the UI, omit broker/credentials below and keep only sensors/automation.
+
+mqtt:
+  broker: marzocchi-tech.ewe-mulley.ts.net  # MagicDNS name for this broker host
+  port: 8883
+  username: !secret mqtt_username
+  password: !secret mqtt_password
+  certificate: /config/ssl/mqtt/ca.crt
+  tls_insecure: false
+
+  sensor:
+    - name: "Tractor 01 Battery"
+      state_topic: "farm/farmstead/tele/tractor-01/position"
+      value_template: "{{ value_json.data.metrics.battery_pct }}"
+      unit_of_measurement: "%"
+    - name: "Tractor 01 RSSI"
+      state_topic: "farm/farmstead/tele/tractor-01/position"
+      value_template: "{{ value_json.data.metrics.rssi_dbm }}"
+      unit_of_measurement: "dBm"
+
+  device_tracker:
+    - name: "Tractor 01 Tracker"
+      state_topic: "farm/farmstead/tele/tractor-01/position"
+      latitude_template: "{{ value_json.loc.lat }}"
+      longitude_template: "{{ value_json.loc.lon }}"
+      source_type: gps
+
+automation:
+  - alias: "After-hours gate open -> yard light"
+    trigger:
+      - platform: mqtt
+        topic: "farm/farmstead/evt/gate-east/gate.open"
+    condition:
+      - condition: time
+        after: "21:00:00"
+        before: "05:00:00"
+    action:
+      - service: mqtt.publish
+        data:
+          topic: "farm/farmstead/cmd/light-yard/light.on"
+          payload: >-
+            {"v":1,"id":"{{ now().timestamp() | int }}","ts":"{{ now().isoformat() }}","site":"farmstead","class":"cmd","asset":{"id":"light-yard","kind":"light"},"src":{"system":"ha","id":"automation"},"data":{"command":"light.on","args":{"duration_s":300}}}

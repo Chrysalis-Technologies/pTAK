@@ -1,0 +1,17 @@
+site_default: "farmstead"
+log_type_default: "observation"
+
+idempotency:
+  sqlite_path: "/data/processed.sqlite"
+
+exact_event_map:
+  gate.open: "observation"
+  gate.closed: "observation"
+  pump.fault: "maintenance"
+  irrigation.start: "activity"
+  irrigation.stop: "activity"
+
+prefix_event_map:
+  security.: "observation"
+  gate.: "observation"
+  irrigation.: "activity"

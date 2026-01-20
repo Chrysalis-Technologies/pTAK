@@ -1,0 +1,7 @@
+site_default: "farmstead"
+asset_kind_default: "meshtastic-node"
+asset_name_prefix: ""
+loc_defaults:
+  ce_m: 10.0
+  le_m: 15.0
+ttl_s_default: 120

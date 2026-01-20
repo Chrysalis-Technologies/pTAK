@@ -1,0 +1,35 @@
+{
+  "v": 1,
+  "id": "01J7VA5FJWXW5F9Q3N0WQ7Y4WJ",
+  "ts": "2026-01-19T20:20:00Z",
+  "site": "farmstead",
+  "class": "meta",
+  "asset": {
+    "id": "gate-east",
+    "kind": "gate",
+    "name": "East Gate"
+  },
+  "src": {
+    "system": "script",
+    "id": "seed-meta"
+  },
+  "loc": {
+    "lat": 43.04601,
+    "lon": -76.12111,
+    "hae_m": 145.0,
+    "ce_m": 6.0,
+    "le_m": 12.0
+  },
+  "data": {
+    "tak": {
+      "uid": "farm.farmstead.gate-east",
+      "callsign": "Gate East",
+      "cot_type": "a-f-G-I",
+      "stale_s_default": 600
+    },
+    "links": {
+      "farmos_asset_uuid": "b2e0f21b-4aa1-4f8b-89d3-5ef0d6c2d4b1"
+    },
+    "notes": "Primary entrance gate."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "v": 1,
+  "id": "01J7VB0G5KRW2GD9D7G7ESR61V",
+  "ts": "2026-01-19T20:21:30Z",
+  "site": "farmstead",
+  "class": "tele",
+  "asset": {
+    "id": "mt-node-01",
+    "kind": "meshtastic-node",
+    "name": "mt-node-01"
+  },
+  "src": {
+    "system": "meshtastic",
+    "id": "!abcd"
+  },
+  "loc": {
+    "lat": 43.04523,
+    "lon": -76.12288,
+    "hae_m": 146.2,
+    "ce_m": 10.0,
+    "le_m": 15.0
+  },
+  "ttl_s": 120,
+  "data": {
+    "stream": "position",
+    "metrics": {
+      "battery_pct": 87,
+      "rssi_dbm": -105
+    }
+  }
+}

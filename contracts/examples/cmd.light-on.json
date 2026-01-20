@@ -1,0 +1,22 @@
+{
+  "v": 1,
+  "id": "01J7VA2TD4P5J9G6V2BDPVF3TB",
+  "ts": "2026-01-19T20:19:05Z",
+  "site": "farmstead",
+  "class": "cmd",
+  "asset": {
+    "id": "light-yard",
+    "kind": "light",
+    "name": "Yard Light"
+  },
+  "src": {
+    "system": "ha",
+    "id": "automation"
+  },
+  "data": {
+    "command": "light.on",
+    "args": {
+      "duration_s": 300
+    }
+  }
+}

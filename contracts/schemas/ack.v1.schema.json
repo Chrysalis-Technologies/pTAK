@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/contracts/schemas/ack.v1.schema.json",
+  "title": "Ack Envelope v1",
+  "allOf": [
+    {"$ref": "envelope.v1.schema.json"},
+    {
+      "type": "object",
+      "properties": {
+        "class": {"const": "ack"},
+        "data": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "command": {"type": "string"},
+            "status": {"type": "string"},
+            "result": {"type": "object"}
+          },
+          "required": ["command", "status"]
+        }
+      },
+      "required": ["class", "data"]
+    }
+  ]
+}

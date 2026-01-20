@@ -1,0 +1,20 @@
+{
+  "v": 1,
+  "id": "01J7VA1V6AFH1ZCEZ9YQSH60N2",
+  "ts": "2026-01-19T20:18:00Z",
+  "site": "farmstead",
+  "class": "state",
+  "asset": {
+    "id": "pump-01",
+    "kind": "pump",
+    "name": "Well Pump"
+  },
+  "src": {
+    "system": "plc",
+    "id": "plc-01"
+  },
+  "data": {
+    "status": "running",
+    "reason": "schedule"
+  }
+}

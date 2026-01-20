@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/contracts/schemas/meta.v1.schema.json",
+  "title": "Meta Envelope v1",
+  "allOf": [
+    {"$ref": "envelope.v1.schema.json"},
+    {
+      "type": "object",
+      "properties": {
+        "class": {"const": "meta"},
+        "data": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "tak": {
+              "type": "object",
+              "additionalProperties": true,
+              "properties": {
+                "uid": {"type": "string"},
+                "callsign": {"type": "string"},
+                "cot_type": {"type": "string"},
+                "stale_s_default": {"type": "integer"}
+              }
+            },
+            "links": {
+              "type": "object",
+              "additionalProperties": true,
+              "properties": {
+                "farmos_asset_uuid": {"type": "string"}
+              }
+            },
+            "notes": {"type": "string"}
+          }
+        }
+      },
+      "required": ["class", "data"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/contracts/schemas/tele.v1.schema.json",
+  "title": "Telemetry Envelope v1",
+  "allOf": [
+    {"$ref": "envelope.v1.schema.json"},
+    {
+      "type": "object",
+      "properties": {
+        "class": {"const": "tele"},
+        "data": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "stream": {"type": "string"},
+            "metrics": {
+              "type": "object",
+              "additionalProperties": true,
+              "properties": {
+                "battery_pct": {"type": "number"},
+                "rssi_dbm": {"type": "number"},
+                "snr_db": {"type": "number"},
+                "temp_c": {"type": "number"}
+              }
+            }
+          }
+        }
+      },
+      "required": ["class", "data"]
+    }
+  ]
+}

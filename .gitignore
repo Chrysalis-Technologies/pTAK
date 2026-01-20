@@ -52,3 +52,14 @@ Desktop.ini
 
 # Ansible artifacts
 *.retry
+
+# MQTT TLS + auth material
+mqtt-certs/*
+!mqtt-certs/README.md
+secrets/*
+!secrets/README.md
+
+# Farm stack artifacts
+data/cot-sink/
+data/farmos-logger/
+data/farmos-mock/

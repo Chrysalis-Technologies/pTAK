@@ -1,0 +1,13 @@
+{
+  "id": "01J7VB0G5KRW2GD9D7G7ESR61V",
+  "timestamp": "2026-01-19T20:21:30Z",
+  "from": "!abcd",
+  "node": "mt-node-01",
+  "payload": {
+    "latitude": 43.04523,
+    "longitude": -76.12288,
+    "altitude": 146.2,
+    "battery_level": 87,
+    "rssi": -105
+  }
+}

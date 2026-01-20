@@ -1,0 +1,32 @@
+{
+  "v": 1,
+  "id": "01J7VA0J1J4E4W7V2A0C8VNZ4Q",
+  "ts": "2026-01-19T20:16:12Z",
+  "site": "farmstead",
+  "class": "evt",
+  "asset": {
+    "id": "gate-east",
+    "kind": "gate",
+    "name": "East Gate"
+  },
+  "src": {
+    "system": "ha",
+    "id": "haos"
+  },
+  "loc": {
+    "lat": 43.04601,
+    "lon": -76.12111,
+    "hae_m": 145.0,
+    "ce_m": 6.0,
+    "le_m": 12.0
+  },
+  "ttl_s": 600,
+  "tags": {
+    "zone": "perimeter"
+  },
+  "data": {
+    "event_type": "gate.open",
+    "severity": "warning",
+    "message": "After-hours gate open"
+  }
+}

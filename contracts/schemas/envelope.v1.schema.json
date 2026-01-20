@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/contracts/schemas/envelope.v1.schema.json",
+  "title": "Farm Envelope v1",
+  "type": "object",
+  "required": ["v", "id", "ts", "site", "class", "asset", "src", "data"],
+  "additionalProperties": false,
+  "properties": {
+    "v": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "site": {
+      "type": "string",
+      "minLength": 1
+    },
+    "class": {
+      "type": "string",
+      "enum": ["tele", "state", "evt", "cmd", "ack", "meta"]
+    },
+    "asset": {
+      "type": "object",
+      "required": ["id", "kind"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "src": {
+      "type": "object",
+      "required": ["system"],
+      "additionalProperties": false,
+      "properties": {
+        "system": {
+          "type": "string",
+          "enum": ["meshtastic", "ha", "plc", "gateway", "manual", "script"]
+        },
+        "gw": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "loc": {
+      "type": "object",
+      "required": ["lat", "lon"],
+      "additionalProperties": false,
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "hae_m": {
+          "type": "number"
+        },
+        "ce_m": {
+          "type": "number"
+        },
+        "le_m": {
+          "type": "number"
+        }
+      }
+    },
+    "ttl_s": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "tags": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "zone": {
+          "type": "string"
+        },
+        "field": {
+          "type": "string"
+        }
+      }
+    },
+    "data": {
+      "type": "object"
+    }
+  }
+}

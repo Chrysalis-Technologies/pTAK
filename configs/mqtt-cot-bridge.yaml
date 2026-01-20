@@ -1,0 +1,32 @@
+site_default: "farmstead"
+
+cot_defaults:
+  contact_cot_type: "a-f-G-U-C"
+  infrastructure_cot_type: "a-f-G-I"
+  alert_cot_type: "b-a"
+  geofence_cot_type: "b-a-g"
+  stale_s_default: 300
+  how_machine: "m-g"
+  how_manual: "h-e"
+
+dedupe:
+  max_entries: 512
+  window_s: 180
+
+asset_kind_map:
+  gate:
+    cot_type: "a-f-G-I"
+  tractor:
+    cot_type: "a-f-G-U-C"
+  pump:
+    cot_type: "a-f-G-U-C"
+  light:
+    cot_type: "a-f-G-I"
+
+event_type_map:
+  gate.open:
+    cot_type: "b-a-g"
+  security.breach:
+    cot_type: "b-a-g"
+  pump.fault:
+    cot_type: "b-a"

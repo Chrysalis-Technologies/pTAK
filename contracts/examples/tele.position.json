@@ -1,0 +1,36 @@
+{
+  "v": 1,
+  "id": "01J7V9TZWY6QH7Q3YB2N8A1K9Z",
+  "ts": "2026-01-19T20:15:31Z",
+  "site": "farmstead",
+  "class": "tele",
+  "asset": {
+    "id": "tractor-01",
+    "kind": "tractor",
+    "name": "Blue 6410"
+  },
+  "src": {
+    "system": "meshtastic",
+    "gw": "mt-gw-01",
+    "id": "!abcd"
+  },
+  "loc": {
+    "lat": 43.04523,
+    "lon": -76.12288,
+    "hae_m": 146.2,
+    "ce_m": 4.5,
+    "le_m": 8.0
+  },
+  "ttl_s": 120,
+  "tags": {
+    "zone": "north"
+  },
+  "data": {
+    "stream": "position",
+    "metrics": {
+      "battery_pct": 87.0,
+      "rssi_dbm": -105.0,
+      "snr_db": 7.2
+    }
+  }
+}

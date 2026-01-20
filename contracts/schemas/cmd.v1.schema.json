@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/contracts/schemas/cmd.v1.schema.json",
+  "title": "Command Envelope v1",
+  "allOf": [
+    {"$ref": "envelope.v1.schema.json"},
+    {
+      "type": "object",
+      "properties": {
+        "class": {"const": "cmd"},
+        "data": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "command": {"type": "string"},
+            "args": {"type": "object"}
+          },
+          "required": ["command"]
+        }
+      },
+      "required": ["class", "data"]
+    }
+  ]
+}
