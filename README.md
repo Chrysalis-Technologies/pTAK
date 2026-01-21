@@ -64,6 +64,10 @@ Expected results:
 - HA snippets: `integrations/homeassistant/mqtt-package.yaml`
 - QGIS/TAK overlays: `docs/overlays.md`
 - Tests: `pip install -r requirements-dev.txt` then `pytest`
+
+## Launcher
+- Run `pwsh ./scripts/launch-lab.ps1` to start docker compose, launch WinTAK (set `WINTAK_EXE` if needed), and open Edge with tabs for the pTAK workspace, farmOS, and the HAOS SPRINT dashboard. Defaults: Edge profile `Default`, workspace link prefilled, farmOS at `http://marzocchi-tech.ewe-mulley.ts.net:8082`, HA at `http://homeassistant.local:8123/lovelace/sprint`. Optional env overrides: `EDGE_PROFILE_DIR`, `PTAK_WORKSPACE_URL`, `FARMOS_URL`, `HAOS_SPRINT_URL`.
+
 ## Hardware Overview
 See `docs/hardware-bom.md` for the recommended router chassis, storage, cabling, and optional accessories that mirror the “fanless 4×2.5 GbE” homelab builds.
 
