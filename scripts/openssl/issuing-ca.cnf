@@ -1,0 +1,32 @@
+[ ca ]
+default_ca = CA_default
+
+[ CA_default ]
+dir = __CA_PATH__
+certs = $dir/certs
+new_certs_dir = $dir/db/newcerts
+database = $dir/db/index.txt
+serial = $dir/db/serial
+crlnumber = $dir/db/crlnumber
+certificate = $dir/certs/__CA_CERT_FILE__
+private_key = $dir/private/__CA_KEY_FILE__
+default_md = sha256
+default_days = 825
+default_crl_days = 30
+policy = policy_loose
+email_in_dn = no
+unique_subject = no
+name_opt = ca_default
+cert_opt = ca_default
+copy_extensions = none
+x509_extensions = server_cert
+crl = __PUBLIC_CRL_PATH__
+
+[ policy_loose ]
+countryName = optional
+stateOrProvinceName = optional
+localityName = optional
+organizationName = optional
+organizationalUnitName = optional
+commonName = supplied
+emailAddress = optional

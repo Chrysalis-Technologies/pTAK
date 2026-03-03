@@ -1,0 +1,35 @@
+/* SiO2_pTAK category folder coloring (folder + related notes) */
+.nav-folder-title[data-path="SiO2_pTAK/01_AI"] .nav-folder-title-content {
+  color: rgb(155, 89, 182) !important;
+}
+.nav-folder-title[data-path="SiO2_pTAK/02_Applications"] .nav-folder-title-content {
+  color: rgb(52, 152, 219) !important;
+}
+.nav-folder-title[data-path="SiO2_pTAK/03_Compute"] .nav-folder-title-content {
+  color: rgb(46, 204, 113) !important;
+}
+.nav-folder-title[data-path="SiO2_pTAK/04_Communications"] .nav-folder-title-content {
+  color: rgb(241, 196, 15) !important;
+}
+.nav-folder-title[data-path="SiO2_pTAK/05_Data"] .nav-folder-title-content {
+  color: rgb(230, 126, 34) !important;
+}
+.nav-folder-title[data-path="SiO2_pTAK/06_GIS"] .nav-folder-title-content {
+  color: rgb(26, 188, 156) !important;
+}
+.nav-folder-title[data-path="SiO2_pTAK/07_Security"] .nav-folder-title-content {
+  color: rgb(231, 76, 60) !important;
+}
+.nav-folder-title[data-path="SiO2_pTAK/08_IoT"] .nav-folder-title-content {
+  color: rgb(22, 160, 133) !important;
+}
+
+/* Optional: tint note entries by folder in File Explorer */
+.nav-file-title[data-path^="SiO2_pTAK/01_AI/"] .nav-file-title-content { color: rgb(155, 89, 182) !important; }
+.nav-file-title[data-path^="SiO2_pTAK/02_Applications/"] .nav-file-title-content { color: rgb(52, 152, 219) !important; }
+.nav-file-title[data-path^="SiO2_pTAK/03_Compute/"] .nav-file-title-content { color: rgb(46, 204, 113) !important; }
+.nav-file-title[data-path^="SiO2_pTAK/04_Communications/"] .nav-file-title-content { color: rgb(241, 196, 15) !important; }
+.nav-file-title[data-path^="SiO2_pTAK/05_Data/"] .nav-file-title-content { color: rgb(230, 126, 34) !important; }
+.nav-file-title[data-path^="SiO2_pTAK/06_GIS/"] .nav-file-title-content { color: rgb(26, 188, 156) !important; }
+.nav-file-title[data-path^="SiO2_pTAK/07_Security/"] .nav-file-title-content { color: rgb(231, 76, 60) !important; }
+.nav-file-title[data-path^="SiO2_pTAK/08_IoT/"] .nav-file-title-content { color: rgb(22, 160, 133) !important; }

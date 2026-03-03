@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "94a8b0d6c0c2b7c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf63308fa79e692e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "984675a23f5c86df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_Communications/CoT XML.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CoT XML"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5dbafa1545368d39",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff7388c5716b1374",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35594c39b8e26178",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "be309fb94f2704d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fadab4ddfdfee83e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2c7d9e3812be5373",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cad99f38dfb6800",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfb701a4444a00be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04_Communications/CoT XML.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CoT XML"
+            }
+          },
+          {
+            "id": "531ccb4a076c2680",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04_Communications/CoT XML.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CoT XML"
+            }
+          },
+          {
+            "id": "1dfab0321c4229f4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5921a3c50db6af7a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "76ac01f5fc01b7ac",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04_Communications/CoT XML.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CoT XML"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "be309fb94f2704d3",
+  "lastOpenFiles": [
+    "01_AI/XX2wAiqE",
+    "05_Data/X12 EDI 834 - 837 - 270 - 271 - 835.md",
+    "06_GIS/QGIS projects .qgz.md",
+    "06_GIS/Coordinate reference systems CRS.md",
+    "05_Data/SQL T-SQL.md",
+    "04_Communications/Wi-Fi 2.4 - 5 GHz.md",
+    "04_Communications/Tailscale WireGuard.md",
+    "04_Communications/LoRa 915 MHz ISM.md",
+    "04_Communications/CoT Cursor on Target.md",
+    "04_Communications/BLE 2.4 GHz.md",
+    "03_Compute/Proxmox planned.md",
+    "03_Compute/Lenovo P16 primary workstation.md",
+    "02_Applications/TAK Server Docker.md",
+    "02_Applications/TAK WinTAK - iTAK - ATAK.md",
+    "02_Applications/Home Assistant OS HAOS.md",
+    "01_AI/Persistent memory Azure SQL - local DB.md",
+    "01_AI/Local LLMs DeepSeek, Qwen, Nous Hermes, Dolphin.md",
+    "01_AI/LM Studio local API.md",
+    "02_Applications/Paperless-ngx.md",
+    "Untitled.md",
+    "08_IoT/e-Paper displays.md",
+    "08_IoT/Zigbee sensors.md",
+    "05_Data/YAML.md",
+    "03_Compute/YAML configs.md",
+    "05_Data/X12 EDI (834 - 837 - 270 - 271 - 835).md",
+    "08_IoT/Wyze cameras.md",
+    "08_IoT",
+    "07_Security",
+    "06_GIS",
+    "05_Data",
+    "04_Communications",
+    "03_Compute",
+    "02_Applications",
+    "01_AI",
+    "e-Paper displays",
+    "Zigbee sensors"
+  ]
+}

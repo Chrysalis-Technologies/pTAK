@@ -1,0 +1,66 @@
+services:
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: hub-mosquitto
+    restart: unless-stopped
+    ports:
+      - "8883:8883"
+    volumes:
+      - ./hub/mqtt/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./mqtt-certs:/mosquitto/certs:ro
+      - ./secrets/mosquitto.passwd:/run/secrets/mosquitto.passwd:ro
+      - hub-mosquitto-data:/mosquitto/data
+      - hub-mosquitto-log:/mosquitto/log
+    command:
+      - /bin/sh
+      - -ec
+      - |
+        cp /run/secrets/mosquitto.passwd /mosquitto/config/mosquitto.passwd
+        chmod 600 /mosquitto/config/mosquitto.passwd
+        if [ "$(id -u)" = "0" ]; then
+          chown mosquitto:mosquitto /mosquitto/config/mosquitto.passwd
+        fi
+        exec /usr/sbin/mosquitto -c /mosquitto/config/mosquitto.conf
+    networks:
+      default:
+        aliases:
+          - mqtt-broker
+
+  hub-bridge:
+    build:
+      context: ./hub/bridge
+    container_name: hub-bridge
+    depends_on:
+      - mosquitto
+    env_file:
+      - .env.hub
+    restart: unless-stopped
+    volumes:
+      - ./mqtt-certs:/mqtt-certs:ro
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import os,urllib.request; urllib.request.urlopen(f'http://127.0.0.1:{os.getenv(\"HTTP_PORT\",\"8080\")}/health', timeout=2).read()"
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+  mqtt-client:
+    image: eclipse-mosquitto:2
+    container_name: hub-mqtt-client
+    profiles:
+      - debug
+    depends_on:
+      - mosquitto
+    env_file:
+      - .env.hub
+    volumes:
+      - ./mqtt-certs:/mqtt-certs:ro
+    command: ["sleep", "infinity"]
+
+volumes:
+  hub-mosquitto-data:
+  hub-mosquitto-log:

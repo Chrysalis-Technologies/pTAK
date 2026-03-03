@@ -36,6 +36,7 @@ __pycache__/
 # Environment + tooling noise
 .env
 .env.*
+!.env.hub.example
 .pytest_cache/
 .mypy_cache/
 .vscode/*.db
@@ -58,8 +59,27 @@ mqtt-certs/*
 !mqtt-certs/README.md
 secrets/*
 !secrets/README.md
+secrets/internal-ca
+secrets/internal-ca/
+
+# Unified PKI runtime snapshots and encrypted CA backups
+backups/pki-provision-*/
+**/*.tar.gz.enc
+**/*.tar.gz.enc.sha256
 
 # Farm stack artifacts
 data/cot-sink/
 data/farmos-logger/
 data/farmos-mock/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage
+**/.ipynb_checkpoints/
+*.log
+.tmp/
+**/.tmp/
+.gitattributes.bak.*

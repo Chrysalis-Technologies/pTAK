@@ -26,6 +26,69 @@
         "reveal": "always",
         "panel": "shared"
       }
+    },
+    {
+      "label": "ca:init",
+      "type": "shell",
+      "command": "bash ./scripts/ptak-ca.sh init",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "ca:provision",
+      "type": "shell",
+      "command": "bash ./scripts/ptak-ca.sh provision",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "ca:backup",
+      "type": "shell",
+      "command": "bash ./scripts/ptak-ca.sh backup",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "ca:revoke",
+      "type": "shell",
+      "command": "bash ./scripts/ptak-ca.sh revoke ${input:caRevokeTarget} --reason ${input:caRevokeReason}",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "ca:crl",
+      "type": "shell",
+      "command": "bash ./scripts/ptak-ca.sh crl",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "caRevokeTarget",
+      "type": "promptString",
+      "description": "Certificate name or path to revoke"
+    },
+    {
+      "id": "caRevokeReason",
+      "type": "promptString",
+      "description": "CRL reason (e.g. keyCompromise, cessationOfOperation)",
+      "default": "cessationOfOperation"
     }
   ]
 }

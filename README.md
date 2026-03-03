@@ -6,25 +6,28 @@ The project does not build custom firmware images. Instead, it uses standard she
 
 ## WinTAK + FreeTAKServer Quick Start
 1. Start the stack: `docker compose up -d`.
-2. Generate certs: `pwsh ./scripts/gen-fts-certs.ps1 -ClientCommonName WinTAK-Paul` (use `-Force` to regenerate).
-3. Ensure PEM copies exist for FTS defaults: `Copy-Item fts-certs/ca.crt fts-certs/ca.pem` and `Copy-Item fts-certs/server.crt fts-certs/server.pem`.
+2. Initialize the unified internal CA: `bash ./scripts/ptak-ca.sh init`.
+3. Provision runtime certs for MQTT + FTS + WinTAK: `bash ./scripts/ptak-ca.sh provision`.
 4. Restart the server to load certs: `docker compose restart freetakserver`.
-5. In WinTAK, use `WinTAK-Paul-NoPwd.p12` for the client identity and `FTS-CA.p12` for the truststore, then connect to `ssl://127.0.0.1:8089`.
+5. In WinTAK, import `fts-certs/WinTAK-Paul.p12` for client identity and trust `fts-certs/ca.pem`/root CA, then connect to `ssl://127.0.0.1:8089`.
 6. Verify ports with `pwsh ./scripts/test-fts.ps1` (8089 must be open).
 
 ## TLS Notes
 - `docker-compose.yml` must mount `fts-certs` read/write so FreeTAKServer can create `server.key.unencrypted`.
 - TLS env vars should point at `/certs/ca.pem`, `/certs/server.pem`, `/certs/server.key`, and include `FTS_CERTS_PATH=/certs`.
 - Server cert SANs include `freetakserver`, `localhost`, `127.0.0.1`; use one of these in WinTAK to avoid hostname mismatch.
+- By default, CA private keys are kept in `${PTAK_CA_DIR:-$HOME/.ptak/internal-ca}` and are not copied to runtime-mounted cert dirs.
+- Only use `--allow-online-ca-key` if you intentionally accept runtime online signing risk for FTS.
 - The repo mounts patched SSL controllers from `overrides/` to bypass CRL enforcement unless you manage `fts-certs/FTS_CRL.json`.
+- Full PKI workflow and backup guidance: `docs/internal-ca.md`.
 
 ## Farm Situational Awareness & Control Stack
 This repo includes a local integration scaffold that links MQTT, TAK, and farmOS with a shared data contract under `contracts/`.
 
 ### Quickstart (dev mode)
-1. Generate MQTT TLS certs:
-   - PowerShell: `pwsh ./scripts/gen-mqtt-certs.ps1 -AltNames "mqtt-broker,localhost,127.0.0.1,marzocchi-tech.ewe-mulley.ts.net"`
-   - Bash: `./scripts/gen-mqtt-certs.sh "mqtt-broker,localhost,127.0.0.1,marzocchi-tech.ewe-mulley.ts.net"`
+1. Generate/provision TLS certs from the unified PKI toolkit:
+   - Bash (all services): `bash ./scripts/ptak-ca.sh provision`
+   - PowerShell compatibility wrapper (MQTT only): `pwsh ./scripts/gen-mqtt-certs.ps1 -AltNames "mqtt-broker,localhost,127.0.0.1,marzocchi-tech.ewe-mulley.ts.net"`
 2. Create MQTT credentials:
    - PowerShell: `pwsh ./scripts/gen-mqtt-credentials.ps1 -Username farm`
    - Bash: `./scripts/gen-mqtt-credentials.sh farm`
@@ -64,6 +67,22 @@ Expected results:
 - HA snippets: `integrations/homeassistant/mqtt-package.yaml`
 - QGIS/TAK overlays: `docs/overlays.md`
 - Tests: `pip install -r requirements-dev.txt` then `pytest`
+
+## Hub Integration Layer (MQTT ↔ CoT ↔ HA)
+- Hub compose: `docker-compose.hub.yml`
+- Hub bridge guide: `hub/bridge/README.md`
+- MQTT topic contract: `hub/contracts/mqtt_topics.md`
+- CoT mapping contract: `hub/contracts/cot_mapping.md`
+- Start/stop scripts: `scripts/hub-up.ps1`, `scripts/hub-down.ps1`
+- Simulator publish scripts: `scripts/hub-publish-env.ps1`, `scripts/hub-publish-pos.ps1`
+
+Quickstart:
+1. Copy env template: `Copy-Item .env.hub.example .env.hub`
+2. Start hub services: `pwsh ./scripts/hub-up.ps1`
+3. Publish simulator messages:
+   - `pwsh ./scripts/hub-publish-env.ps1 -NodeId WinTAK-Paul`
+   - `pwsh ./scripts/hub-publish-pos.ps1 -NodeId WinTAK-Paul`
+4. Follow bridge logs: `docker compose --env-file .env.hub -f docker-compose.hub.yml logs -f hub-bridge`
 
 ## Launcher
 - Run `pwsh ./scripts/launch-lab.ps1` to start docker compose, launch WinTAK (set `WINTAK_EXE` if needed), and open Edge with tabs for the pTAK workspace, farmOS, and the HAOS SPRINT dashboard. Defaults: Edge profile `Default`, workspace link prefilled, farmOS at `http://marzocchi-tech.ewe-mulley.ts.net:8082`, HA at `http://homeassistant.local:8123/lovelace/sprint`. Optional env overrides: `EDGE_PROFILE_DIR`, `PTAK_WORKSPACE_URL`, `FARMOS_URL`, `HAOS_SPRINT_URL`.
